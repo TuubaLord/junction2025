@@ -1,0 +1,46 @@
+{
+    "credit_risk": [
+        {
+            "id": "CR1",
+            "text": "The bank must maintain adequate capital buffers."
+        },
+        {
+            "id": "CR2",
+            "text": "Institutions are required to hold sufficient own funds."
+        },
+        {
+            "id": "CR3",
+            "text": "The bank may temporarily operate below capital buffers under stress."
+        }
+    ],
+    "liquidity_risk": [
+        {
+            "id": "LR1",
+            "text": "The institution must hold a liquidity buffer of high-quality liquid assets."
+        },
+        {
+            "id": "LR2",
+            "text": "The institution is not obliged to maintain a liquidity buffer in all circumstances."
+        }
+    ],
+    "aku risk": [
+        {
+            "id": "R1",
+            "text": "Supervised entities must ensure that the valuation of acceptable collateral is based on reliable appraisal methods, taking internationally recognised valuation standards into account."
+        },
+        {
+            "id": "R2",
+            "text": "Institutions should ensure that the property collateral is valued in accordance with applicable international, European and national standards, such as the International Valuation Standards Council, the European Group of Valuers’ Associations European Valuation Standards and the Royal Institution of Chartered Surveyors standards."
+        }
+    ],
+    "aku risk2": [
+        {
+            "id": "R11",
+            "text": "Institutions should ensure an adequate rotation of valuers and define the number of sequential individual valuations of the same property that can be performed by the same valuer. Any further revaluations beyond this number should result in the rotation of the valuer, resulting in the appointment of either a different internal valuer or a different external valuer."
+        },
+        {
+            "id": "R21",
+            "text": "Credit institutions should ensure adequate rotation of appraisers, i.e. two sequential individual valuations of the immovable property by the same appraiser should result in the rotation of the appraiser, resulting in the appointment of either a different internal appraiser or a different external appraisal provider."
+        }
+    ]
+}
