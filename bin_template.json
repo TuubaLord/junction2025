@@ -1,0 +1,45 @@
+{
+    "risk_category": "<name>",
+    "bins": [
+        {
+            "reference article": {
+                "document title": "title",
+                "document name": "name",
+                "article id": "4.1",
+                "article name": "Reportable transactions and content of the report",
+                "article paragraphs": [
+                    "(1) leipä",
+                    "(2) textiä",
+                    "(3) liirum",
+                    "(4) laarum"
+                ]
+            },
+            "additional articles": [
+                {
+                    "document title": "title",
+                    "document name": "name",
+                    "article id": "4.1",
+                    "article name": "Reportable transactions and content of the report",
+                    "article paragraphs": [
+                        "(1) leipä",
+                        "(2) textiä",
+                        "(3) liirum",
+                        "(4) laarum"
+                    ]
+                },
+                {
+                    "document title": "title",
+                    "document name": "name",
+                    "article id": "4.1",
+                    "article name": "Reportable transactions and content of the report",
+                    "article paragraphs": [
+                        "(1) leipä",
+                        "(2) textiä",
+                        "(3) liirum",
+                        "(4) laarum"
+                    ]
+                }
+            ]
+        }
+    ]
+}
