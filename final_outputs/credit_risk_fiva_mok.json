@@ -1,0 +1,722 @@
+[
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "1.1",
+        "article name": "Scope of application",
+        "article paragraphs": [
+            "(1) These regulations and guidelines shall apply to the following supervised entities and foreign supervised entities referred to in the Act on the Financial Supervisory Authority (878/2008), listed by risk area.",
+            "(2) Credit risk report State of the banking system (S): · credit institutions as referred to in the Credit Institutions Act (610/2014) (Issued on 11 December 2020, valid from 1 January 2022) · holding companies other than investment firms that are the parent undertaking of a credit institution as referred to in the Credit Institutions Act (Issued on 11 December 2020, valid from 1 January 2022) · branches of foreign credit institutions engaged in credit institution activity in Finland as referred to in the Credit Institutions Act (Issued on 11 December 2020, valid from 1 January 2022) . central bodies of an amalgamation of deposit banks as referred to in the Act on the Amalgamation of Deposit Banks (599/2010) (Issued on 11 December 2020, valid from 1 January 2022)",
+            "(3) Loan-to-value report (LTC): As referred to in the Credit Institutions Act (Issued on 11 December 2020, valid from 1 January 2022): · credit institutions · Finnish branches of foreign credit institutions authorised in an EEA country · Finnish branches of foreign credit institutions authorised in a non-EEA country (branches of third country credit institutions)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "1.2",
+        "article name": "Definitions",
+        "article paragraphs": [
+            "(4) For the purpose of these regulations and guidelines, the following definitions shall apply: · Supervised entity means entities that fall within the scope of application of these regulations and guidelines, as defined in section 1.1 above. · Counterparty means, in these regulations and guidelines, a group of connected clients, as referred to in Article 4(1)(39) of the EU's Capital Requirements Regulation . Loan-to-value ratio means, as referred to in chapter 15, section 11 of the Credit Institutions Act, the loan amount granted in relation to the current value of the collateral security lodged as security for the loan at the time of granting of the loan. · Reporting date means the dates 31 March; 30 June; 30 September and 31 December. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 1/2014 Issued 6.3.2014 Valid from 31.3.2014 until further notice FIN FIN FIN S 5 (15)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "3.1",
+        "article name": "Objectives of the regulations and guidelines",
+        "article paragraphs": [
+            "(1) These regulations and guidelines define supervised entities' reporting obligations in respect of credit risk and the reporting of loan-to-value ratio.",
+            "(2) The objective of these regulations and guidelines is to ensure that FIN-FSA can acquire information on supervised entities' credit risk position and the loan-to-value ratios of housing loans granted by supervised entities. Provisions are necessary to protect the public e.g. from the risk of losing repayable funds and to safeguard the reliability and stability of the banking system.",
+            "(3) Credit risks are significant risks to which supervised entities with banking operations are exposed. Supervised entities' credit risk management and control are of major importance for ensuring capital adequacy in relation to operational risks and any losses resulting from materialisation of such risks.",
+            "(4) The objective of reporting on the loan-to-value ratio is to ensure that FIN-FSA can acquire information on the loan-to-value ratios of residential mortgage loans granted by supervised entities. The Credit Institutions Act requires that supervised entities not grant residential mortgage loans larger than as prescribed in chapter 15, section 11 of the Credit Institutions Act. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 1/2014 Issued 6.3.2014 Valid from 31.3.2014 until further notice FIN FIN S FIN 7 (15)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "4.1",
+        "article name": "Contents of the reports",
+        "article paragraphs": [
+            "(3) The State of the banking system S report (table S01F) is the credit risk report. Table S01F includes information on the supervised entity's total exposures, overdue and nonperforming assets as well as impairment losses from the housing corporation sector and private domestic housing companies. (Issued on 2 May 2018, valid from 1 June 2018).",
+            "(4) The loan-to-value report (LTC) is used for monitoring the loan-to-value ratios of the residential mortgage loans granted by supervised entities at the times the loans are granted. The reporting includes loan-specific data, broken down into loans related to the housing to be purchased and the current value of the collateral securities lodged as security for the loan, by type of collateral. 4.2 Submission of supervisory information using the S tables (Issued on 26 September 2024, valid from 30 September 2024) REGULATION (paragraphs 5-11)",
+            "(5) Supervised entities must submit to FIN-FSA the S tables in accordance with the Financial sector's reporting map1. (Issued on 26 September 2024, valid from 30 September 2024)",
+            "(6) Supervised entities must report to FIN-FSA, using the S tables, the information that is based on information specified in Annex III (FINREP templates), V (Instructions on FINREP) of the Commission Implementing Regulation. (Issued on 26 September 2024, valid from 30 September 2024)",
+            "(7) Supervised entities that are the parent undertaking of a consolidation group must report the information referred to in paragraph (6) above on a consolidation basis (reporting institution category 205 or 214). The reporting obligation does not apply to the parent undertakings of a sub-consolidation group. No other supervised entity belonging to a consolidation group need report the information. (Issued on 11 December 2020, valid from 1 January 2022)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "4.3",
+        "article name": "Submission of supervisory information using the LTC table",
+        "article paragraphs": [
+            "(12) Supervised entities must submit to FIN-FSA the LTC table in accordance with the Financial sector's reporting map.2 for reporting institution categories 201, 202, 210, 211, 221, 222; if the credit institution has branches abroad, information is submitted for categories 202 and 211, excluding branches abroad). (Issued on 11 December 2020, valid from 1 January 2022)",
+            "(13) Supervised entities must report to FIN-FSA, using the LTC table, data that are based on FIN-FSA's Regulation and guideline 3/2015 Calculation of loan-to-value ratio.",
+            "(14) The LTC table must be used for reporting consumer credits as referred to in chapter 15, section 11, subsection 1 of the Credit Institutions Act and that have been granted on or after 1 July 2016 and have not been reported before and, moreover, have been used to acquire or renovate residential property located in Finland (Issued on 11 December 2020, valid from 1 January 2022)",
+            "(15) The loan-to value ratio must be calculated according to the situation at time the loan is granted. (Issued on 11 December 2020, valid from 1 January 2022).",
+            "(16) In the LTC table column \"Loan identifier\", supervised entities must report the contract number or another corresponding loan identifier.",
+            "(17) In the LTC table column 010, supervised entities must report whether the loan was granted for the purchase of a first home, by entering in the column either 1 (=Yes) or 0 (=No).",
+            "(18) In the LTC table column 020, supervised entities must report whether the loan that was granted is a loan whose loan-to-value ratio may be higher than prescribed in chapter 15, section 11, subsections 3 and 4 of the Credit Institutions Act, by entering in the column either 1 (=Yes) or 0 (=No).",
+            "(19) Values in the LTC table columns 030 and 040 must be reported in the form \"YYYYMMDD\"."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "2",
+        "article name": "https://www.finanssivalvonta.fi/globalassets/fi/raportointi/tiedonkeruukartta_rahoitussektori.pdf?",
+        "article paragraphs": [
+            "(20) Values in the LTC table columns 090 and 170 must be reported with negative signs.",
+            "(21) Values in the LTC table columns 060, 070, 080, 100, 110, 120, 130, 140, 150, 160, 180, 200, 210 and 220 must be reported with positive signs.",
+            "(22) Values in the LTC table columns 190 and 230 must be reported as percentages without the % sign.",
+            "(23) The LTC report must be submitted on quarterly basis, as at 31 March, 30 June, 30 September and 31 December. The LTC report must be submitted to FIN-FSA within 30 business days of the reporting date. GUIDELINE (paragraph 24)",
+            "(24) Situations as referred to in paragraph (18), in which the loan-to-value ratio may be higher than prescribed in chapter 15, section 11, subsections 3 and 4 of the Credit Institutions Act, are defined in FIN-FSA Regulations and guidelines 3/2015 Calculation of loan-to-value ratio (section 4.4). (Issued on 11 December 2020, valid from 1 January 2021)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2025",
+        "document name": "01_2025.M1_en.di",
+        "article id": "4.1",
+        "article name": "Data and operating models to be applied in risk rating systems",
+        "article paragraphs": [
+            "(1) In accordance with chapter 15, section 11 b, subsection 2 of the Credit Institutions Act and section 13, subsection 2 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries, lenders shall have a risk rating system allowing it to monitor and assess default risks reliably in consumer lending. In accordance with chapter 18, section 6 of the Credit Institutions Act, chapter 15, section 11 b of said Act applies to branches of foreign credit institutions and foreign credit institutions providing services in Finland based on the freedom of provision of services.",
+            "(2) In accordance with chapter 15, section 11 b, subsection 4 of the Credit Institutions Act and section 13, subsection 4 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries, the FIN-FSA may issue more detailed regulations on the data and operating models to be applied in rating systems. REGULATION (paragraphs 3-4)",
+            "(3) Supervised entities shall measure the performance of the operating model of the rating system in the assessment of default risks on the credit granting date using the Gini coefficient.",
+            "(4) Supervised entities shall calculate the Gini coefficient using the methodology described in paragraphs (9)-(13) with an example calculation. Supervised entities must calculate the Gini coefficient using a comparable method in connection with MK reporting in accordance with section 4.5",
+            "(5) The example calculation presented in paragraphs (9)-(13) illustrates the method used by the FIN-FSA to calculate the Gini coefficient with fictitious values. The calculation model is also available on the FIN- FSA website in an Excel file attached to these regulations and guidelines. The data used in the calculation are based on MK reporting defined in section 4.5."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2025",
+        "document name": "01_2025.M1_en.di",
+        "article id": "5",
+        "article name": "10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 All approved credits, cumulative % from lowest to highest scores",
+        "article paragraphs": [
+            "(11) In Chart 1, the horizontal axis represents the cumulative proportion of approved credits out of total credits, starting from the highest-risk 5% bucket, while the vertical axis represents the corresponding proportion of bad credits. The area aR is approximated by first forming a bar between each 5% bucket, where the width of the horizontal axis represents the relative proportion of each bucket (here: 5%). The height of the bar indicates the average share of bad credits in these two buckets. For example, the width of the bar between the 5% and 10% score buckets is 5, and its height, on a rounded basis, is 14+26.5 = 20,2 (see Table 1 column \"Cumulative share of bad credits between groups on average, %\"). 2",
+            "(12) The area of the entire scoring model is determined by calculating the sum of the areas of each bar (width of the bar multiplied by its height). In the example, the area of bad credits is 7,587.2, where the area above the area of a random model aR is 7587,2 - 5000 = 2587,2. The area falling below a random model is exactly 5,000 because it constitutes half of the potential area of the entire chart 100-100 5,000). 2",
+            "(13) Correspondingly, the area of the difference between a random model and a perfect model aR + ap is 5,000. Hence, in this example, the Gini coefficient is calculated with the following formula: Gini = 2,587.2 . 100% = 51.7%. 5,000 FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 1/2025 Issued 22.5.2025 Valid from 1.6.2025 until further notice S FIN FIN FIN 11 (14)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2025",
+        "document name": "01_2025.M1_en.di",
+        "article id": "4.3",
+        "article name": "Thresholds and distributions for the assessment of default risk",
+        "article paragraphs": [
+            "(14) In accordance with chapter 15, section 11 b, subsection 1 of the Credit Institutions Act and section 13, subsection 1 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries, the business model applied by a lender in its lending must not, assessed as a whole, lead to the granting of credits to consumers with an unreasonably high default risk. In accordance with chapter 18, section 6 of the Credit Institutions Act, chapter 15, section 11 b of said Act applies to branches of foreign credit institutions and foreign credit institutions providing services in Finland based on freedom of provision of services.",
+            "(15) In accordance with chapter 15, section 11 b, subsection 4 of the Credit Institutions Act and section 13, subsection 4 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries, the FIN-FSA may issue more detailed regulations on thresholds and distributions necessary for the assessment of default risk. REGULATION (paragraphs 16-17)",
+            "(16) Supervised entities shall use the proportion of bad credits in the highest-risk 5% bucket relative to the total of good and bad credits in that bucket at a given point in time as a criterion for moderate default risk.",
+            "(17) Supervised entities shall calculate the proportion of bad credits in the highest-risk 5% bucket using the methodology described with an example calculation in paragraphs (21)-(22). Supervised entities must calculate the proportion using a comparable method in connection with MK reporting in accordance with section 4.5",
+            "(18) The example calculation in paragraphs (21)-(22) illustrates, with fictitious values, the calculation applied by the FIN-FSA for the proportion of bad credits in the highest-risk 5% bucket. The calculation model is also available on the FIN-FSA website in an Excel file attached to these regulations and guidelines. The data used in the calculation are based on MK reporting defined in section 4.5."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 1/2025",
+        "document name": "01_2025.M1_en.di",
+        "article id": "4.4",
+        "article name": "Principle and calculation of the highest-risk 5% bucket",
+        "article paragraphs": [
+            "(19) The percentage share of bad credits in the highest-risk 5% bucket relative to all credits in the bucket indicates the level of default risk at which the supervised entity grants credits to consumers assigned the highest approved level of default risk at the time of credit origination. REGULATION (paragraph 20)",
+            "(20) In calculating the share of bad credits in the highest-risk 5% bucket, the supervised entity shall use the last day of December (31 Dec) as the reference date and the prior 1-2 years (period from 1 Jan to 31 Dec) as the reference period. For example, the review for the reference date 31 December 2025 concerns new credits granted between 1 January and 31 December 2024. The number of bad credits and other data to be used in the calculation are determined based on the situation as at the reference date. In calculating the share, the supervised entity shall use the number (count) of credits.",
+            "(21) Bad credits in the highest-risk 5% bucket as a share of all credits in the bucket are calculated with the formula: (H5%) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 1/2025 Issued 22.5.2025 Valid from 1.6.2025 until further notice S FIN FIN FIN 12 (14) DPD>905% + W5% 100, H5% DPD≤905% + R5% + DPD>905% +W5% where DPD>905% is the number of credits more than 90 past due, W5% is the number of credits recognised as impaired, and terminated before reaching 90 days past due and those not impaired, DPD <905% is the number of credits no more than 90 days past due and R5% is the number of repaid credits in the highest-risk 5% bucket. Table 2. Example data for the highest-risk 5% bucket. Not past due or past due <= 30 days, count Past due > 30 days and <= 90 days, count Past due > 90 days, count Repaid credits, count past due and not Realised credit losses, before reaching 90 days recognised as impaired, and credits terminated count Credit applications above approval threshold and approved, lowest score (=highest credit risk), 5% bucket 248 10 19 12 11",
+            "(22) Table 2 presents the example data for the highest-risk 5% bucket for calculating the proportion of bad credits relative to all credits in the bucket. Based on the figures of the example: H5% 248 + 10 + 19 +12+11 19 + 11 · 100 = 10%"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 3/2015",
+        "document name": "2015_03.m4_en.di",
+        "article id": "1",
+        "article name": "1HE 77/2016, https://www.edilex.fi/he/20160077#OT157 (in Finnish)",
+        "article paragraphs": [
+            "(5) Third-party pledge refers to collateral owned by another person.",
+            "(6) Institutional as-for-own-debt guarantee is an as-for-own-debt guarantee or credit insurance granted by a sovereign state, insurance company or another credit institution, the use of which does not necessitate liquidation of collateral.",
+            "(7) Deficiency guarantee refers to a guarantee or credit insurance granted by a sovereign state, insurance company or another credit institution, under which the guarantor is liable for the primary debt only to the extent that payment cannot be extracted from the property pledged as collateral for the primary debt.",
+            "(8) Deficiency collateral refers to a real collateral which may only be converted to cash after the realisation of the primary collateral. (Issued on 6.6.2017, valid from 1.10.2017)",
+            "(9) Housing corporation refers to a limited liability housing company as referred to in chapter 1, section 2 of the Limited Liability Housing Companies Act (1599/2009).",
+            "(10) Current value is the likely sale price of an asset, ie market value. The current value typically applied by a credit institution for an apartment is its actual transaction price. In the context of the calculation of loan-to-value ratio, current value does not mean the debt-free price (which is the transaction price plus the proportion of the debt of the housing corporation allocated to the purchased shares), because the LTV calculation formula contains a variable separately for the debt of the housing corporation allocated to a share. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 3/2015 Issued Valid from 25.11.2015 1.7.2016 until further notice FIN S C FIN FIN FIN CIN *************** A A 6 (15)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 3/2015",
+        "document name": "2015_03.m4_en.di",
+        "article id": "2.1",
+        "article name": "Legislation",
+        "article paragraphs": [
+            "(1) The following legal provisions relate to the matters addressed in these regulations and guidelines: · Act on Credit Institutions (610/2014) · Consumer Protection Act (38/1978)2 (Issued on 6.6.2017, valid from 1.10.2017) · Act on the Registration of Certain Credit Providers and Credit Intermediaries. (Issued on 24.5.2023, valid from 1.7.2023) 2.2 FIN-FSA's authority to issue regulations",
+            "(2) FIN-FSA's authority to issue binding regulations on the matters covered by these regulations and guidelines is based on chapter 15, section 11, subsection 5 of the Act on Credit Institutions, chapter 9, section 24 of the Act on Credit Institutions and section 14, subsection 5 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries. (Issued on 24.5.2023, valid from 1.7.2023)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 3/2015",
+        "document name": "2015_03.m4_en.di",
+        "article id": "3",
+        "article name": "Objectives",
+        "article paragraphs": [
+            "(1) The LTV ratio is a macroprudential tool, which can be used to contain excessive household indebtedness and prevent a spiral of credit expansion and inflation of market prices of assets used as collateral. This macroprudential tool is particularly appropriate for containing any overheating of the housing markets.",
+            "(2) Other objectives of the regulation are · to promote advance saving for a home; and · to prevent situations where the debt of a housing loan customer exceeds the value of the collateral in the event of a potential decrease of house prices (negative equity).",
+            "(3) The objective of these regulations and guidelines is to describe the calculation of the loan-to- value ratio as referred to in chapter 15, section 11 of the Act on Credit Institutions and section 14 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries in Finland, and thereby harmonise the concept of LTV in the market of housing loans for personal customers. (Issued on 24.5.2023, valid from 1.7.2023) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 3/2015 Issued Valid from 25.11.2015 1.7.2016 until further notice 8 (15)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 3/2015",
+        "document name": "2015_03.m4_en.di",
+        "article id": "4.2",
+        "article name": "Definition of collateral and calculation of loan-to-value ratio",
+        "article paragraphs": [
+            "(8) The collateral types to accepted in the calculation are the following: · primary housing pledge (shares in a housing corporation, mortgage deed of real estate, a right of occupancy agreement, partial ownership agreement) o mortgage deeds on a property are taken into account in an order of seniority at the maximum at the current value of the property (Issued on 6.6.2017, valid from 1.10.2017) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY A *************** A FIN S C FIN FIN FIN CIN Regulations and guidelines 3/2015 Issued 25.11.2015 Valid from 1.7.2016 until further notice FIN S C FIN A FIN FIN CIN A 10 (15) o the current value of a right of occupancy agreement or partial ownership agreement is determined on the basis of the market value of the agreement (Issued on 6.6.2017, valid from 1.10.2017) · other housing pledges, including leisure time residences · deposit collateral · other real collateral (eg equity shares, investment fund units) · third-party pledges · guarantees or corresponding credit insurance granted by a sovereign state, insurance company or another credit institution.",
+            "(9) The impact of deficiency guarantees granted by a sovereign state, insurance company or another credit institution in the calculation of loan-to-value ratio is determined on the basis of their ratio to the value of primary pledges placed as collateral: the value of a deficiency pledge in LTV calculation equals the amount that the deficiency pledge will cover after liquidation of the primary collateral, provided that the liquidation price of the primary collateral corresponds to the current value as at the time of calculation of the loan-to-value ratio.However, the maximum LTV ratio for a state-subsidised \"ASP\" loan guaranteed by the state may deviate from the limits in accordance to the provisions of chapter 4.4. (Issued on 6.6.2017, valid from 1.10.2017)",
+            "(10) A secondary pledge on a primary housing pledge with junior ranking to the loan being assessed does not reduce the collateral value and therefore it shall not be taken into account in the calculation.",
+            "(11) If the supervised entity has approved general pledges or other collateral behaving similarly to loan collateral, the supervised entity must, in the case of several loans, either a) separate the general pledges into imputed special pledges corresponding to the credit amounts; or b) treat the loans as a single loan, if the collateral and repayment schedules are completely uniform. This applies particularly to situations where a customer buying a residence takes several individual loans linked to different reference rates but otherwise featuring similar loan terms.",
+            "(12) In a construction project, the loan amount is the entire loan amount granted. The collateral value to be used is the market value of the completed property as assessed by the supervised entity. Regulation, paragraphs (13)-(14)",
+            "(13) In the calculation, collateral is matched with the loan assessed. A single loan may be subject to several collateral items and guarantees. The LTV ratio is calculated for an individual loan, and therefore the number of borrowers does not affect the calculation.",
+            "(14) As-for-own-debt guarantees accepted for the LTV calculation are deducted from the liability. (Issued on 6.6.2017, valid from 1.10.2017) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 3/2015 Issued 25.11.2015 Valid from 1.7.2016 until further notice 11 (15) Guideline, paragraph (15)",
+            "(15) As regards the supervised entity, a deficiency guarantee granted by a sovereign state, an insurance company or other credit institution increases the current value of the collateral against impairment, but it does not generally increase the current value of the collateral in the context of the LTV calculation. For example, in a situation where the current value of an object is 100, loan amount 90, and the amount to which deficiency guarantee covers the loan is 90, the value of the deficiency guarantee used in LTV calculation is max(0; 90 - 100) = 0. (Issued on 6.6.2017, valid from 1.10.2017) Regulation, paragraphs (16)-(17)",
+            "(16) These regulations and guidelines apply to situations where houses are exchanged so that the new apartment is being purchased partly or entirely on short-term bridge finance. However, the maximum LTV ratio for short-term financing may deviate from the limits in accordance with the provisions of chapter 4.4. (Issued on 6.6.2017, valid from 1.10.2017)",
+            "(17) These regulations and guidelines also apply to loans taken for the construction or renovation of a residence. However, the maximum LTV ratio for short-term financing may deviate from the limits in accordance with the provisions of chapter 4.4. (Issued on 6.6.2017, valid from 1.10.2017)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 3/2015",
+        "document name": "2015_03.m4_en.di",
+        "article id": "4.4",
+        "article name": "Special situations where a supervised entity may deviate from the limitations",
+        "article paragraphs": [
+            "(19) A supervised entity may deviate from the maximum LTV limits in situations where houses are exchanged so that a new apartment is being purchased partly or entirely on short-term bridge finance. Short-term refers to a loan period (maturity) of less than 1 year. In addition, the supervised entity must have an estimate of the final situation, ie the LTV after the sale of the previous residence, which must be within the limits for maximum LTV ratio. (Issued on 18.8.2017, valid from 1.10.2017)",
+            "(20) A supervised entity may deviate from the maximum LTV limits in the case of short-term bridge funding loans granted for the construction or renovation of a residence. Short-term refers to a loan period (maturity) of less than 1 year. In addition, the supervised entity must have an estimate of the final situation, ie the LTV after the project, which must be within the limits for maximum LTV ratio. (Issued on 18.8.2017, valid from 1.10.2017) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 3/2015 Issued Valid from 25.11.2015 1.7.2016 until further notice FIN S C FIN FIN FIN CIN A A 13 (15)",
+            "(21) It is also possible to deviate from the limits when additional financing is used to prevent or rectify a material decrease in the value of the collateral. Examples of such circumstances include unexpected damages, such as humidity damages, latent structural deficiencies etc. The decrease in the value of the collateral must be sudden and surprising, additional financing cannot be used to compensate for a decrease in collateral values due to a decline in the price level. (Issued on 6.6.2017, valid from 1.10.2017)",
+            "(22) The maximum loan-to-value ratio for loans referred to in the Act on bonus for home savers (1634/1992) is the percentage share of the value of the residence, up to which a loan under said Act may be granted. In order to contain the exceptional growth of risk to financial stability, FIN- FSA may decide to limit the maximum amount of lending under the Act by up to 10 percentage points ie to 85% in the case of first-home buyers. However, the loan amount for a residence purchased under the ASP scheme may, even in this case, equal the proportion of purchase price calculated according to the required savings under the law.",
+            "(23) A supervised entity may deviate from the maximum LTV limits in situations where a borrower's existing loans are combined as a single new loan so that the total loan amount does not increase, as compared to the situation prevailing before the restructuring, but the value of a previously pledged collateral decreases and the borrower does not have access to new supplementary collateral. (Issued on 18.8.2017, valid from 1.10.2017)",
+            "(24) In a situation where several persons together take out a housing loan, some but not all of whom being first-home buyers, the supervised entity may apply the maximum loan amount for first- home purchase under chapter 15, section 11 of the Act on Credit Institutions and section 14 of the Act on the Registration of Certain Credit Providers and Credit Intermediaries. (Issued on 24.5.2023, valid from 1.7.2023) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY 14 (15) A A FIN FIN CIN S C FIN Regulations and guidelines 3/2015 Issued 25.11.2015 Valid from 1.7.2016 until further notice"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "1.1",
+        "article name": "Scope of application",
+        "article paragraphs": [
+            "(1) These regulations and guidelines are applicable to the following supervised entities and foreign supervised entities as referred to in the Act on the Financial Supervisory Authority: · credit institutions · investment firms · branches in Finland of foreign credit institutions authorised in non-EEA countries (branch offices of third-country credit institutions) · branches in Finland of foreign investment firms authorised in non-EEA countries (branch offices of third-country investment firms) · central institutions of amalgamations of deposit banks · holding companies of credit institutions and abovementioned investment firms providing investment services · holding companies of conglomerates as referred to in the Act on the Supervision of Financial and Insurance Conglomerates.",
+            "(2) In addition, section 4.1 of these regulations and guidelines is applicable to other supervised entities as referred to in section 4 of the Act on the Financial Supervisory Authority (the FIN- FSA Act), other financial market participants as referred to in section 5 and foreign supervised entities as referred to in section 6 that offer in Finland consumer loans falling within the scope of chapter 7 of the Consumer Protection Act or consumer loans related to residential property falling within the scope of chapter 7a of the Consumer Protection Act. (Issued on 20 October 2020, valid from 30 June 2021)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "1.2",
+        "article name": "Definitions",
+        "article paragraphs": [
+            "(3) Supervised entity refers to all supervised entities and foreign supervised entities as referred to in the FIN-FSA Act and listed in section 1.1, paragraph 1 above. (Issued on 20 October 2020, valid from 30 June 2021)",
+            "(4) Credit risk refers to the risk that the counterparty of a financial instrument is unable to fulfil its obligations and therefore causes a financial loss to the other party. Credits are the main source of credit risk, but credit risk (counterparty risk) may also be inherent in bonds, short-term debt securities and derivatives, and in off balance-sheet commitments, such as unused credit lines or limits, guarantees and letters of credit. Country risk and settlement risk are also regarded as credit risks. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued Valid from 5.3.2018 1.7.2019 until further notice S C FIN FIN FIN CIN A FIN A 6 (26)",
+            "(5) Senior management refers to the supervised entity's board of directors. If the supervised entity has a supervisory board, the supervisory board and the board of directors together constitute the senior management of the supervised entity as referred to herein.",
+            "(6) Executive management refers here to the Chief Executive Officer and members of a management group appointed to support the CEO. Executive management also comprises persons who operate directly under the CEO and effectively manage the business of the supervised entity in addition to the CEO. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued 5.3.2018 Valid from 1.7.2019 until further notice FIN FIN CIN S C FIN A *************** A 7 (26)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "3",
+        "article name": "Objectives",
+        "article paragraphs": [
+            "(1) The organisation of credit risk management and control as part of the internal control function constitutes a key task for the supervised entity's business management. Credit risk management and control is of crucial importance in ensuring that the supervised entity holds adequate capital against the risks involved in the business and the potential losses on incurred risks.",
+            "(2) The objective of these regulations and guidelines on the management of credit risk and the assessment of creditworthiness is to (Issued on 20 October 2020, valid from 30 June 2021): · Ensure that supervised entities and entities belonging to the same consolidation group have adequate and effective functions in place, commensurate with the nature and scope of their activities, to identify, measure, mitigate, monitor and control market risk as part of their overall business risk management and control. · Ensure that supervised entities and entities belonging to the same consolidation group do not take on such credit risks that may jeopardise their profitability or capital adequacy, in the course of their lending or investment activities. · Ensure that supervised entities and entities belonging to the same consolidation group as well as other financial institutions1 follow appropriate procedures when assessing the creditworthiness of customers · Inform supervised entities of guidelines and recommendations issued by EBA and the ECB, which should be taken into account by supervised entities and other financial institutions in their activities."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.1",
+        "article name": "Loan origination and monitoring",
+        "article paragraphs": [
+            "(1) On 29 May 2020, the European Banking Authority (EBA) issued guidelines on loan origination and monitoring (EBA/GL/2020/06). The guidelines clarify, in particular, the internal governance and control framework for the credit-granting and decision-making process, specify the requirements for assessing the creditworthiness of borrowers at the point of credit granting to consumers and enterprises, and set out requirements for the information to be used in assessments. In addition, the guidelines set out supervisory expectations for the risk-based pricing of loans and provide guidance on, among other things, the valuation of immovable and movable property collateral at the point of credit granting, and the monitoring and review of the value of such collateral. The guidelines also provide specifications on the ongoing monitoring of credit risks. (Issued on 20 October 2020, valid from 30 June 2021)",
+            "(2) In accordance with Article 16(3) of the EBA Regulation (1093/2010), financial institutions shall make every effort to comply with the EBA Guidelines referred to in paragraph (1). (Issued on 20 October 2020, valid from 30 June 2021) GUIDELINE (paragraphs 3-4)",
+            "(3) The FIN-FSA recommends that supervised entities falling within the scope of these regulations and guidelines comply with the EBA Guidelines mentioned in paragraph (1), which is available at the https://www.finanssivalvonta.fi/en/. (Issued on 20 October 2020, valid from 30 June 2021)",
+            "(4) The FIN-FSA recommends that all supervised entities as referred to in section 4 of the FIN-FSA Act and other financial market participants as referred to in section 5 and foreign supervised entities as referred to in section 6 comply with chapter 5 on loan origination procedures of the EBA Guidelines mentioned in paragraph (1), excluding paragraph 93 of the Guidelines, when they offer consumer loans falling within the scope of chapter 7 of the Consumer Protection Act or consumer loans related to residential property falling within the scope of chapter 7a of the Consumer Protection Act. (Issued on 20 October 2020, valid from 30 June 2021)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.2",
+        "article name": "Credit risk strategy and credit risk management procedures",
+        "article paragraphs": [
+            "(5) In accordance with chapter 9, section 1 of the Credit Institutions Act, a credit institution may not, in the course of its activities, incur a risk that fundamentally endangers its solvency or the liquidity. To ensure this, the credit institution shall have sound, comprehensive and efficient strategies and procedures to assess, monitor and maintain the amount, nature and allocation of its internal capital.",
+            "(6) In accordance with chapter 9, section 3 of the Credit Institutions Act, the board of directors of a credit institution shall approve the strategies and procedures concerning the risks relating to the credit institution and its activity as well as regularly monitor them. All material risks, risk management guidelines and any changes thereto shall be reported to the board of directors. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued 5.3.2018 Valid from 1.7.2019 until further notice 12 (26) GUIDELINE (paragraph 7)",
+            "(7) The FIN-FSA recommends that the credit risk strategy define at least the following matters: · target markets · preferred customer profile in granting credit and its allocation of credit based on exposure type, industry or economic sector, geographical location, currency and maturity · risk-taking level based on its risk-bearing capacity and principles for diversification of and hedging against risks · quality, yield and growth targets for the credit portfolio."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.4",
+        "article name": "Credit granting principles and credit granting process",
+        "article paragraphs": [
+            "(17) This section 4.3 provides regulations and guidelines on general credit granting principles and processes and those applicable to corporate and consumer lending, from the perspective of credit risk management. Chapter 7 of the Consumer Protection Act provides on consumer credit, and chapter 7a provides on consumer credit pertaining to housing property from the perspective of customer protection."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.4.1",
+        "article name": "Credit analysis",
+        "article paragraphs": [
+            "(18) In accordance with chapter 9, section 10(1) of the Credit Institutions Act, the granting of credit shall be based on sound and well-defined criteria.",
+            "(19) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on counterparty risk referred to in section 10. REGULATION (paragraphs 20-29)",
+            "(20) Credit decisions by a supervised entity shall be based on a credit analysis. The credit analysis shall give a sufficiently accurate picture of the borrower applying for credit, the borrower's creditworthiness and of the project to be financed.",
+            "(21) In the assessment of creditworthiness, the supervised entity must comply with chapter 7a, section 10 of the Consumer Protection Act also with respect to other borrowers than consumers. The assessment must be made with respect to both new credits, renewed credits and changes of credit terms and conditions. The information and documents needed as background for the decision must be listed.",
+            "(22) In considering the granting of credit, supervised entities must study thoroughly enough the capacity of the applicant to meet its obligations. To analyse the financial status and creditworthiness, sufficient information must be obtained about the customer. Corporate customers' financial statements information and personal customers' income and expense information as well as credit register details constitute basic information likely to assist the supervised entity in making the right credit decisions. The accuracy of the information must be ascertained in an appropriate manner.",
+            "(23) At a minimum, the following factors must be considered in the context of credit decisions:2 · the borrower's previous repayment performance, current repayment capacity and estimate of future repayment capacity considering all of its assets and liabilities"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "2",
+        "article name": "In applying this regulation, supervised entities may take into account the quality, scope and diversity of their operations and the estimated credit risk related to the customer as well as any other comparable matters in considering how to implement the regulation in an appropriate and effective manner.",
+        "article paragraphs": [
+            "(24) In order to assess credit risk, supervised entities must take into account the matters listed in chapter 4.2.2, paragraph (36) of the EBA Guidelines (EBA/GL/2017/06) on credit institutions' credit risk management practices and accounting for expected credit losses to the extent that they were not taken into account under paragraph (23). (Issued on 20 October 2020, valid from 30 June 2021)",
+            "(25) In their credit decisions, supervised entities must to assess the risks against expected return both in pricing individual credits and in making an overall assessment of their customer relationships. Supervised entities must emphasise the independent profitability of lending relative to credit risks. In keeping with their risk-related goals, supervised entities shall take into consideration potential future macroeconomic changes and their effects on borrowers and contract parties.",
+            "(26) Supervised entities must be able to demonstrate that they consider inherent risks appropriately in accordance with chapter 4.2.2, paragraph (40) of the guidelines referred to above in paragraph (24) in pricing credit contracts.",
+            "(27) Supervised entities must comply with the provisions on the assessment of creditworthiness and on granting credit laid down in chapter 7, section 16a (2) of the Consumer Protection Act also with respect to non-consumer credit."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.4.2",
+        "article name": "Collateral management",
+        "article paragraphs": [
+            "(36) In accordance with chapter 9, section 10(3) of the Credit Institutions Act, credit institutions shall administer and monitor credit risks on an ongoing basis through effective systems.",
+            "(37) In accordance with section 1 of the Decree of the Council of State on the professional requirements for lenders and credit intermediaries in consumer credits related to housing, persons filing the notifications referred to in section 6(1) of the Act on intermediaries of consumer credits relating to residential immovable property must have appropriate competence FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued 5.3.2018 Valid from 1.7.2019 until further notice FIN FIN FIN S C FIN CIN A A 17 (26) commensurate with the nature and scope of the activity, as regards the credits and other services provided, finance, economy and the assessment of consumers' creditworthiness, where necessary. In addition, the person filing the notification must have appropriate knowledge among other things of the following matters: 4) valuation of residential property or other assets provided as collateral for credit. The requisite competence and knowledge must be demonstrated by an applicable diploma or degree as well as work experience, and it must be maintained up to date.",
+            "(38) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on counterparty risk referred to in section 10. REGULATION (paragraphs 39-44)",
+            "(39) Credit decisions must be primarily based on the customer's creditworthiness. As a rule, credit shall not be granted if the customer lacks credit repayment potential apart from the realisation of collateral.",
+            "(40) In exceptional financing arrangements where the repayment of credit is based on the realisation of collateral, the supervised entity shall monitor the return and market value performance of the collateral in order to ascertain that the repayment is guaranteed.",
+            "(41) Supervised entities must have documented procedures and guidelines for: · accepting different types of collateral · regularly monitoring and assessing collateral values4 · collateral valuation (hair-cut) · ensuring that collateral is binding, adequate and realisable · identifying any concentrations of risk arising from collateral.",
+            "(42) Supervised entities must establish acceptable types of collateral as well as collateral valuation percentages for each type of acceptable collateral. The valuation percentages shall be consistent with a prudential maximum limit for the relevant types of collateral. However, collateral value must always be based on a case-specific assessment, and special attention should be paid on collateral whose fair value cannot be considered stable.",
+            "(43) The valuer of collateral must be competent and adequately independent of the granting of credit. Supervised entities must comply with the provisions in section 1 of Decree 1031/2016 of the Council of State on the professional requirements for a valuer of residential property or collateral for credit in consumer credit related to housing, also with respect to the valuer of collateral for other credit.",
+            "(44) Supervised entities must ensure that the valuation of acceptable collateral is based on reliable appraisal methods, taking internationally recognised valuation standards into account."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.4.3",
+        "article name": "Credit granting process",
+        "article paragraphs": [
+            "(45) In accordance with chapter 9, section 10(1) of the Credit Institutions Act, principles and procedures concerning the processes for approving, amending, renewing, and re-financing credits shall be clearly established and documented.",
+            "(46) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on counterparty risk referred to in section 10. REGULATION (paragraphs 47-64)",
+            "(47) Credit decisions shall be made in accordance with written instructions approved by the executive management. There shall be a clear audit trail documenting the whole process, from credit application to credit decision, and it shall be approved by the appropriate level of management. The credit decision or documents appended thereto shall give a detailed account of the contents and date of the decision, the grounds for granting or turning down the application and the decision makers. The entire credit granting process must be verifiable after the event.",
+            "(48) The tasks and responsibilities of persons involved in the granting of credit must be defined in credit granting instructions. The instructions shall also specify who has the authority to grant credit and the limit of the authority. Only authorised persons or decision-making units may make credit decisions.",
+            "(49) As a rule, the preparation of a credit proposal and the credit decision must be separated. However, the proposal may be exceptionally prepared and decision made by a single person within his or her credit granting authority, where minor and low-risk credit decisions are concerned, and the decision making is supported by an assessment of creditworthiness that is independent of the decision maker.",
+            "(50) Credit may be disbursed to the customer when the customer has submitted to the supervised entity all the necessary documents, and their consistency with the decision has been ensured reliably and independently.",
+            "(51) Credit documents must be retained at least until the credit has been repaid.",
+            "(52) Supervised entities must have common processes, systems, tools and information in accordance with chapter 4.2.7 of the EBA Guidelines on credit institutions' credit risk management practices and accounting for expected credit losses (EBA/GL/2017/06). (Issued on 20 October 2020, valid from 30 June 2021) Credits to closely associated persons",
+            "(53) All decision concerning the granting of credit and all changes of terms and conditions of credit must be made on an arm's-length basis. All credit or comparable finance to related individuals, companies or foundations must be extended on the same terms and conditions as to non- related borrowers. Senior management shall adopt general terms and conditions for credit to closely associated persons and all decisions concerning credit to closely associated persons. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued Valid from 5.3.2018 1.7.2019 until further notice FIN S C FIN FIN FIN CIN A A 19 (26)",
+            "(54) Supervised entities must ensure that credit is not extended to closely associated persons at terms and conditions that could jeopardise the supervised entity's financial status or otherwise the confidence in its operations. Automated credit granting process",
+            "(55) Where a supervised entity has automated part of the credit-granting process, it must ensure that the automated process is compliant with the provisions on the management of credit risk.",
+            "(56) Where a supervised entity has outsourced part of the credit-granting process, it must ensure that the outsourced process is compliant with the provisions on outsourcing. The supervised entity remains responsible for any outsourced activity.",
+            "(57) Where a supervised entity has automated part of the credit-granting process, it must state the credit products and target groups in the lending guidelines and state in which respects these fall within the scope of the automated credit process. The higher the rate of automation, the smaller and less-risky the credit must be.",
+            "(58) Where a supervised entity's credit analysis has been automated, the document describing the activity must state in detail all factors analysed, the sources used, content of the analysis and automatic checks.",
+            "(59) Where the preparation of credit proposals and or decision proposals by a supervised entity have been automated, the document describing the activity must state in detail the rules, criteria, contents, proposal alternatives and automatic checks pertaining to the proposal.",
+            "(60) Where a supervised entity has automated the credit-decision making, it must state in the credit- granting guidelines the prerequisites that must be met in order for the decision to be made automatically. The supervised entity must determine maximum limits for credit amount and risk. Where necessary, other limits must be set. · Supervised entities must see that automatic credit granting is updated where necessary and regularly enough in order to ensure the regulatory compliance and timeliness in other respects of the decision making. · The credit-granting guidelines of a supervised entity must document who has authority to decide on updates to automatic credit granting. Decisions and updates must be documented.",
+            "(61) Where a supervised entity has automated part of the credit-granting process but has not automated credit-decision making or the credit decision is not made automatically since the specified prerequisites are not met, the credit-granting guidelines of the supervised entity must state who has credit-granting authority with respect to automated credits. In addition, the guidelines must describe which checks must be performed by the person making the credit decision before making the decision and the procedure related to each decision proposal. The justifications of the proposal and the underlying analysis must be made available to the person making the credit decision.",
+            "(62) As regards the automated credit process, supervised entities must ensure that the activity is monitored continuously and there are adequate audits on the activity. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued Valid from 5.3.2018 1.7.2019 until further notice FIN S C FIN FIN FIN FIN CIN *************** A A 20 (26)",
+            "(63) Supervised entities must have a system preventing the granting of credit to customers where such granting would lead to an overrun of the maximum credit amounts referred to in paragraph (60).",
+            "(64) Supervised entities must ensure that all such matters pertaining to the granting of credit and credit documentation that must be retained pursuant to regulations are saved, where credits granted through the automated credit process are concerned."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.5",
+        "article name": "Measurement of credit risk and the management information systems",
+        "article paragraphs": [
+            "(65) In accordance with chapter 9, section 9(1) of the Credit Institutions Act, credit institutions shall have sufficient internal methodologies for the assessment of the credit and counterparty risks with regard to the nature, scope and diversity of the activities of a credit institution. The internal methodologies shall not rely solely or mechanically on external credit ratings concerning the counterparty or financial instrument.",
+            "(66) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on the credit risk assessment methods referred to in section 9(1) and (2). REGULATION (paragraphs 67-73)",
+            "(67) The measurement of credit risk shall take account of the specific nature of the claims, their contract terms, the existence of collateral, the probability of payment default and possible market movements affecting the value of the claims.",
+            "(68) Supervised entities must, regardless of whether they use internal models in the calculation of capital requirements for credit risk, assess and monitor the quality of their credit portfolios by a risk rating system which takes the creditworthiness of the customers into account.",
+            "(69) The risk rating system shall hold so many categories that it can separate both different credit risks in well-managed credits and credit risks in doubtful credits.",
+            "(70) The risk rating system shall reflect changes in the credit risks. Deterioration of a customer's payment capacity shall lead to an adjustment of its risk rating and a thorough review of its credits. Weaker customers must be included in more active monitoring.",
+            "(71) A function that is independent of the credit granting shall be responsible for making the rating decisions. This independent function shall also regularly ensure that the rating reflects the actual, prevailing conditions.",
+            "(72) Supervised entities must have information systems and analytical techniques that provide the senior and executive management with adequate reliable, detailed and timely information on the composition of the credit portfolio, including identification of any concentrations of risk.",
+            "(73) Supervised entities must have a credit risk rating process in accordance with chapter 4.3.2, paragraphs (42-48) of the EBA Guidelines on credit institutions' credit risk management practices and accounting for expected credit losses. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued 5.3.2018 Valid from 1.7.2019 until further notice FIN S C FIN FIN FIN A CIN A 21 (26)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.6",
+        "article name": "Mitigation of credit risk",
+        "article paragraphs": [
+            "(74) In accordance with chapter 9, section 10(3) of the Credit Institutions Act, credit receivables have to be kept adequately diversified in accordance with the target market of the credit institution and the credit-granting strategy approved by the board of directors of the credit institution.",
+            "(75) In accordance with chapter 9, section 12 of the Credit Institutions Act, credit institutions shall prepare for the realisation of the risk arising from the concentration of risks. They shall have, for example, documented policies and procedures concerning the matter.",
+            "(76) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on credit and counterparty risk referred to in section 10. REGULATION (paragraphs 77-79)",
+            "(77) The senior management must ensure that credit granting activities and other activities causing credit risk are adequately diversified. For this purpose, the claims and groups of claims that are significant from the viewpoint of risk management and therefore require exposure limits must be defined in order to diversify risks. Limits must be established at least for exposures to specific products, certain counterparties, particular industries or economic sectors, individual foreign countries or groups of countries. The utilisation rate of the limits set must be monitored continuously.",
+            "(78) Supervised entities must also identify such indirect risk concentrations that may arise in situations where the performance of different business lines react in the same way to external, primarily macroeconomic factors.",
+            "(79) If the avoidance of certain risk concentrations is difficult or the concentrations are justifiable from a business point of view, the increased credit risk thus arising shall be considered in the pricing and calculation of capital adequacy."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 4/2018 J. No FIVA 10/01.00/2020",
+        "document name": "2018_04.m3_en.di",
+        "article id": "4.7.1",
+        "article name": "Credit management",
+        "article paragraphs": [
+            "(80) In accordance with chapter 9, section 10(3) of the Credit Institutions Act, credit institutions shall administer and monitor credit risks on an ongoing basis through effective systems.",
+            "(81) In accordance with chapter 9, section 24 of the Credit Institutions Act, the Financial Supervisory Authority may issue further provisions on credit and counterparty risk referred to in section 10. REGULATION (paragraphs 82-84)",
+            "(82) Supervised entities must have an independent function, segregated from the credit granting process, to ensure that credits are prepared and approved appropriately, and relevant documents are duly prepared. The credit documents shall include information to track the history of the credit as well as information on the decision-making process, the staff involved in FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 4/2018 Issued 5.3.2018 Valid from 1.7.2019 until further notice FIN S C FIN FIN CIN FIN A A 22 (26) the credit process and credit decision and information on the current financial status of the borrower or counterparty.",
+            "(83) The credit management shall fulfil the following requirements: · It shall provide accurate and timely information to the management information systems utilised by the unit responsible for customers and by executive management. · It shall ensure adequate segregation of duties and appropriate controls over back office procedures. . It shall ensure compliance with policies and procedures established by senior management and with applicable laws and regulations.",
+            "(84) Supervised entities must have a system preventing the granting of credit to customers where such granting would lead to an overrun of the limits or sub-limits referred to in paragraph (77)."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2024",
+        "document name": "2024_01.m1_en.di",
+        "article id": "4.1.1",
+        "article name": "Business plan",
+        "article paragraphs": [
+            "(1) In accordance with section 8, subsection 1 of the MCBCBA, a mortgage credit bank and other credit institution shall apply to the Financial Supervisory Authority for an authorisation to pursue mortgage credit bank operations. In accordance with subsection 2, paragraph 1 of said section, the FIN-FSA shall grant the authorisation if, based on the information received, it can be verified that the application contains an adequately comprehensive business plan, according to which the credit institution is capable of conducting mortgage credit bank operations in the planned extent. The rationale of this provision (Government proposal 203/2021, p. 53) lists examples of matters that should typically be covered in the business plan from the perspective of sufficient comprehensiveness. GUIDELINE (paragraphs 2-3)",
+            "(2) The FIN-FSA recommends that the board of directors of the supervised entity adopts the business plan for mortgage bank operations at least on an annual basis. The FIN-FSA recommends that the business plan covers at least the following matters:",
+            "(3) · anticipated share of funding through covered bonds relative to total funding and the balance sheet total, · anticipated amount of covered bonds relative to the amount of available collateral, · anticipated covered bond issues, their amounts and volumes over the following year, · pricing expectations for covered bonds, targeted level of credit rating, target group, overcollateralisation targets, costs and intended market venues, · quality and composition targets of credit claims planned to be used as collateral in the cover pool and other collateral in the cover pool, and their sources, · categories of temporary collateral for covered bonds, · documentation of how the sufficiency of collateral over the life cycle of the covered bonds will be ensured, · principles of applying anticipated derivatives hedges, · use of structured issues, · whether the issuer is planning to pursue the issuance of covered bonds with the intermediary loan model, and if it is, a more detailed description of the intermediary loan model, indicating at least the principles and objectives of the use of intermediary credit. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines / Issued 18 October 2024 Valid from 1 January 2025 until further notice ES FIN FIN 8 (12)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2024",
+        "document name": "2024_01.m1_en.di",
+        "article id": "4.2.1",
+        "article name": "Requirements concerning overcollateralisation",
+        "article paragraphs": [
+            "(1) In accordance with section 24 of the MCBCBA, the total value of the cover pool shall continuously exceed the value of payment obligations arising from the covered bonds as provided in said section (overcollateralisation). The value of the overcollateralisation shall constantly be at least two per cent. If the requirements laid down in Article 129(3)(a)(3) of the EU Capital Requirements Regulation are not met, the overcollateralisation value shall be at minimum five per cent. In addition to the part laid down in this subsection, the overcollateralisation shall also cover the estimated winding-down costs related to covered bonds. The overcollateralisation amount shall be determined by a calculation method based on present value. When calculating the present value, payments of loan receivables included in the cover pool shall be taken into account in the proportion in which these loan receivables are included in the calculation of the cover pool total value as referred to in section 23 above. If the calculation method based on present value produces a higher cover pool total value than the method based on the nominal value of obligations incurred from the covered bonds, the overcollateralisation shall be determined on the basis of the nominal value. In calculations based on both the current and the nominal value, any increased credit loss risk of the secured receivable shall be appropriately accounted for, at least in cases where the receivable shall, pursuant to Article 178 of the EU Capital Requirements Regulation, be considered non-performing. In calculations based on the nominal value, the cover assets in the cover pool and the impact of currency derivatives contracts shall be taken into account when determining the obligations incurred from covered bonds. In calculations based on the present value, the value of derivatives contracts shall be determined on the basis of present value at the time of valuation. The same method shall be used to determine both the total value of the cover pool and the obligations incurred from the covered bonds. The Financial Supervisory Authority may issue further regulations on the valuation of derivatives and taking total cash flows into account when calculating cover pool total value. The Financial Supervisory Authority may also issue further regulations on the methods used to calculate and value overcollateralisation. REGULATION (paragraphs 2-3)",
+            "(2) In both nominal and present value-based calculation, the same method based on the fair value or book value, where lower than the fair value, shall be applied to the substitution assets referred to in section 18 of the MCBCBA and assets used to cover the liquidity buffer requirement under section 31 of the MCBCBA, which is applied to the determination of the liquidity buffer requirement under section 31 of the MCBCBA.",
+            "(3) In the valuation of short-term exposures or short-term deposits referred to in section 18, subsection 1, paragraph 2 of the MCBCBA, the book value of the exposure or deposit shall be applied. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines / Issued 18 October 2024 Valid from 1 January 2025 until further notice ES FIN FIN 9 (12) GUIDELINE (paragraphs 4-5)",
+            "(4) The FIN-FSA recommends that if different overcollateralisation requirements have been set for different cover pools, the supervised entity shall monitor the covercollateralisation ratio of each cover pool separately.",
+            "(5) The FIN-FSA recommends that supervised entities assess the effect of the alternative scenarios on the overcollateralisation amount on a regular basis. It is also recommended that the effects of the alternative scenarios on the overcollateralisation amount are taken into consideration when determining the risk appetites and risk limits of the mortgage bank operations."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2024",
+        "document name": "2024_01.m1_en.di",
+        "article id": "4.3",
+        "article name": "Bond register",
+        "article paragraphs": [
+            "(1) In accordance with section 27 of the MCBCBA, the issuer shall keep a register of bonds issued by it and their cover pools. Any changes to the information in the bond register shall be entered in the register without delay. A record shall be kept of entries made in the register which cannot be changed subsequently. The information in the bond register shall make it possible to identify the cover pools used as collateral for bonds and the cover assets contained in the cover pools. GUIDELINE (paragraphs 2- 3)",
+            "(2) The FIN-FSA recommends that authorised credit institutions' bond registers should not include loans that are not included in the value of the cover pool. Exceptions to this rule may include, for example, changes of collateral, restructuring of loans or other comparable temporary reasons.",
+            "(3) The FIN-FSA recommends that supervised entities retain records of bond register entries in accordance with the provisions of the Accounting Act (1336/1997) on the retention of accounting material."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2024",
+        "document name": "2024_01.m1_en.di",
+        "article id": "4.4.1",
+        "article name": "Extension of covered bond maturity",
+        "article paragraphs": [
+            "(5) In accordance with section 32, subsection 1 of the MCBCBA, the terms of a covered bond may contain a clause under which the issuer may, subject to permission granted by the Financial Supervisory Authority, extend the maturity of the covered bond. In this case, the contract terms shall meet the requirements laid down in section 32 of the MCBCBA and specify the final maturity date of the covered bond. In accordance with subsection 2 of said section, the issuer shall apply to the Financial Supervisory Authority for permission to extend maturity as referred to in this section at the latest five banking days before the maturity date of the covered bond.",
+            "(6) The rationale of the provision (Government proposal 203/2021, p. 70) contains a mention of the statements and explanations that should be indicated in the application. GUIDELINE (paragraphs 7- 9)",
+            "(7) The FIN-FSA recommends that the following matters are indicated in the documents attached to an application concerning the extension of the maturity of a covered bond: . The covered bond has been issued in accordance with the MCBCBA, or the supervised entity has started to apply the MCBCBA, in accordance with section 51, subsection 4 of the MCBCBA to covered bonds issued under the previous Act on Mortgage Credit Bank Operations (688/2010). . The terms and conditions of the covered bond in their entirety. · Explanation of the fulfilment of the prerequisites for the extension of maturity. The explanation shall include least: . actions that the supervised entity has taken or sought to take in order to refinance the maturing covered bond with its customary long-term funding sources, \" calculation indicating the impacts on the LCR ratio if the supervised entity were to repay the covered bond. · The new maturity date being sought for the covered bond. . A list of all covered bonds issued by the supervised entity and their maturity dates.",
+            "(8) The FIN-FSA recommends that the supervised entity contacts the FIN-FSA before submitting the application.",
+            "(9) The FIN-FSA recommends that the supervised entity submits the application electronically to the FIN- FSA's registry."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 20/2013",
+        "document name": "20_2013.m7.en.di",
+        "article id": "4.2",
+        "article name": "Submission of supervisory information based on the ECB Regulation",
+        "article paragraphs": [
+            "(8) The ECB Regulation lays down the minimum requirements for the FINREP information that must be submitted by institutions to the competent supervisory authorities of each member state.",
+            "(9) The instructions of chapter 4.1, paragraphs (6) and (7) apply to the reporting reference dates and remittance dates. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 20/2013 Issued 9.12.2013 Valid from 1.1.2014 until further notice S FIN FIN FIN 8 (11) REGULATION (paragraph 10)",
+            "(10) A supervised entity as referred to in chapter 1.1, paragraph (1), excluding investment firms, management companies and AIFMs, must submit the FINREP solo-level information in accordance with the current FINREP reporting framework."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 20/2013",
+        "document name": "20_2013.m7.en.di",
+        "article id": "4.4",
+        "article name": "Guidelines on the submission of supervisory information",
+        "article paragraphs": [
+            "(16) Reporting under these regulations and guidelines is subject to the description of electronic reporting available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022)",
+            "(17) The FIN-FSA recommends that credit institutions belonging to an amalgamation of deposit banks organise the submission of reports referred to above in paragraphs (1-7) and (8-13) so that the member credit institutions submit the information to the central body of the amalgamation of deposit banks, which submits the information of the member banks in a centralised manner to the FIN-FSA. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 20/2013 Issued 9.12.2013 Valid from 1.1.2014 until further notice S FIN FIN FIN 9 (11)",
+            "(18) A description of the FINREP reporting framework referred to in these regulations and guidelines is presented at the FIN-FSA's website in connection with these regulations and guidelines.",
+            "(19) Reporting under these regulations and guidelines shall be made in accordance with more detailed reporting instructions available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 26/2013",
+        "document name": "26_2013.m9.en.di",
+        "article id": "1",
+        "article name": "Scope of application and definitions",
+        "article paragraphs": [
+            "(1) These regulations and guidelines, with the exception of chapter 4.3, are applicable to the following supervised entities and foreign branches, as referred to in the Act on the Financial Supervisory Authority (878/2008) (Issued on 2 June 2021, valid from 26 June 2021): · credit institutions · investment firms referred to in chapter 6, section 2 b of the Investment Services Act · central institutions of amalgamations of deposit banks · branches in Finland of foreign EEA credit institutions",
+            "(2) These regulations and guidelines, with the exception of chapters 4.1 and 4.2, are applicable to the following supervised entities, as referred to in the Act on the Financial Supervisory Authority (878/2008). (Issued on 2 June 2021, valid from 26 June 2021): . parent companies of financial and insurance conglomerates · management companies and alternative investment fund managers",
+            "(3) With regard to credit institutions, these regulations and guidelines are not applicable to credit institutions whose supervision has been transferred to the European Central Bank under the SSM Framework Regulation (significant credit institutions).1 By way of derogation from the aforesaid, chapter 4.2 on the submission of remuneration information is also applicable to significant credit institutions.",
+            "(4) These regulations and guidelines, with the exception of chapters 4.1 and 4.3, are applicable to investment firms, excluding investment firms referred to in chapter 6 b, section 1 b of the Act on Investment Services. (Issued on 2 June 2021, valid from 26 June 2021) 1 Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank (ECB) concerning policies relating to the prudential supervision of credit institutions. The ECB regularly updates the list of credit institutions under its supervision. The list is available on the ECB's website: https://www.bankingsupervision.europa.eu FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 26/2013 Issued 9.12.2013 Valid from 29.6.2014 until further notice S FIN FIN FIN 5 (14)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "1",
+        "article name": "Scope of application and definitions",
+        "article paragraphs": [
+            "(1) These regulations and guidelines are applicable to the following supervised entities as referred to in section 4 of the Act on the Financial Supervisory Authority: · credit institutions · investment firms · management companies · alternative investment fund managers · central bodies of amalgamations of deposit banks · holding companies of credit institutions · holding companies of investment firms. · parent companies of financial and insurance conglomerates. (Issued on 18.1.2022, valid from 21.1.2022)",
+            "(2) As regards credit institutions, these regulations and guidelines do not apply to credit institutions the supervision of which has been transferred to the European Central Bank in accordance with the SSM Regulation.1 Parent companies of financial and insurance conglomerates are only subject to section 12 of these regulations and guidelines. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(3) As regards investment firms and their holding companies as well management companies and alternative investment fund managers, these provisions and guidelines apply insofar as they relate to the articles of the Capital Requirements Regulation applicable to said supervised entities. (Issued on 18.1.2022, valid from 21.1.2022)",
+            "(4) These regulations and guidelines are applicable to the holding companies of credit institutions only on the basis of their consolidated situation."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "1.2",
+        "article name": "Definitions",
+        "article paragraphs": [
+            "(5) Supervised entity refers to all supervised entities that fall within the scope of section 1.1 of these regulations and guidelines and that are referred to in the Act on the Financial Supervisory Authority. 1 Council Regulation (EU) No 1024/2013 of 15 October 2013 conferring specific tasks on the European Central Bank concerning policies relating to the prudential supervision of credit institutions. The ECB maintains a regularly updated list of credit institutions under its supervision. The list is available on the ECB's website: https://www.bankingsupervision.europa.eu FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice 8 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "4.5.1",
+        "article name": "Applicable percentages of deduction for Tier 2 (T2) capital",
+        "article paragraphs": [
+            "(16) In accordance with chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA shall provide more detailed provisions required by the implementation of the CRD and the CRR on the financial preconditions for credit institution activities referred to in chapters 9 and 10 of the Credit Institutions Act, and the regular disclosure obligation required by the supervision of these preconditions. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(17) In accordance with Article 478(3) of the CRR, competent authorities shall determine and publish applicable percentages of deductions for Tier 2 capital items referred to in Article 478(2). REGULATION (paragraph 18)",
+            "(18) The FIN-FSA rules that a percentage of 100% shall be applied to the items referred to in Article 478(2) during the period from 1 January 2014 to 31 December 2023. (Issued on 7.9.2022, valid from 1.10.2022) FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: 14 June 2019 Valid from: 1 September 2019 until further notice 19 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "5",
+        "article name": "Prudential treatment of qualifying holdings outside the financial sector",
+        "article paragraphs": [
+            "(1) In accordance with chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA shall provide more detailed provisions required by the implementation of the CRD and the CRR on the financial preconditions for credit institution activities referred to in chapters 9 and 10 of the Credit Institutions Act, and the regular disclosure obligation required by the supervision of these preconditions. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(2) In accordance with Article 89(3) of the CRR, competent authorities shall either prohibit institutions from having qualifying holdings referred to in paragraphs 1 and 2 of said Article the amount of which exceeds the percentages of eligible capital laid down in those paragraphs or require that institutions apply a certain risk weight to such holdings. REGULATION (paragraphs 3-4)",
+            "(3) Supervised entities shall apply a risk weight of 1,250% to the greater of the following: · Qualifying holdings, the amount of which exceeds 15% of the eligible capital of the supervised entity, in an undertaking referred to in Article 89(1) of the CRR; and · Qualifying holdings, the amount of which exceeds 60% of the eligible capital of the supervised entity, in an undertaking referred to in Article 89(2) of the CRR. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(4) The provision in paragraph (3) does not affect the application of Article 90 of the CRR. (Issued on 7.9.2022, valid from 1.10.2022) FIN-FSA FINANSSIVALVONTA FIN S C FIN FIN CIN *************** A A FIN Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice CIN S C FIN FIN FIN *************** A A 20 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "6.2.4",
+        "article name": "Exposures to credit institutions and investment firms; Article 119 of the CRR",
+        "article paragraphs": [
+            "(10) According to the FIN-FSA's interpretation, the following items can also be included in exposures to credit institutions and investment firms as referred to in Article 119 of the CRR: · exposures to the Deposit Guarantee Fund and the Investors' Compensation Fund, · exposures to the registration fund of the central securities depository and the clearing fund referred to in chapter 2, section 9 of the Act on the Book-Entry System and Clearing Operations. · exposures to fund management companies providing services referred to in chapter 2, section 5 of the Act on Common Funds (management companies engaged in asset management) and deemed comparable to investment firms, · exposures to exchanges referred to in the Securities Markets Act, exposures to the central securities depository referred to in the Act on the Book-Entry System and Clearing Operations.",
+            "(11) According to the FIN-FSA's interpretation, exposures to Municipality Finance are included in exposures under Article 119 of the CRR to credit institutions and investment firms. The risk weights of bonds issued by Municipality Finance are determined on the basis of the risk weight of the Finnish government, since they are guaranteed by the Municipal Guarantee Board. However, this requires that the guarantee satisfies the conditions referred to in Articles 213 and 215 of the CRR. FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice S C FIN FIN FIN CIN A A 22 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "6.2.5",
+        "article name": "Retail exposures; Article 123 of the CRR",
+        "article paragraphs": [
+            "(12) According to the FIN-FSA's interpretation, the reasonable steps referred to in Article 123 of the CRR in the calculation of the EUR 1 million threshold entail that supervised entities should take into account the complexity of the exposures, expenses related to the implementation of the steps and the extent of the impact of the matter on the capital requirement.",
+            "(13) The FIN-FSA recommends that supervised entities determine items calculated as retail exposures as follows: · the conditions for retail exposures set out in Article 123 of the CRR are satisfied · the total exposures to one counterparty, referring both to an individual inhabitant and a group of connected clients, do not exceed 0.2% of the total retail exposures, and the supervised entity has ascertained that the retail exposure portfolio does not include sectoral or similar risk exposures.",
+            "(14) When a supervised entity is determining exposures belonging to the retail exposures in accordance with paragraph (13) applying the 0.2% threshold in line with the Basel recommendation, it can be considered sufficient that the supervised entity conducts the calculation on an annual basis based on the information of the last day of December. This entails that the supervised entity determines the total amount of exposures belonging to retail exposures taking into account Article 123, paragraphs a) and c) of the CRR and subsequently removes from this pool any exposures exceeding 0,2% of the total value of the portfolio and finds out any sectoral or similar exposures related to the portfolio. Any exposures qualifying for the portfolio after this shall be treated as retail exposures for the purposes of capital requirements calculation."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "6.2.7",
+        "article name": "Exposures in default; Article 127 of the CRR",
+        "article paragraphs": [
+            "(19) On 28 September 2016, under Article 16 of Regulation (EU) No 1093/2010, the EBA has issued \"Guidelines on the application of the definition of default under Article 178 of Regulation (EU) No 575/2013\" (EBA/GL/2016/07). GUIDELINE (paragraph 20)",
+            "(20) The FIN-FSA recommends that supervised entities comply with the EBA Guidelines entering into force on 1 January 2021 referred to above in paragraph (19). By that date, supervised entities should incorporate the requirements of the Guidelines in their internal procedures and IT systems. The Guidelines are available at Finanssivalvonta.fi.",
+            "(21) In accordance chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA shall provide more detailed provisions required by the implementation of the CRD and the CRR on the financial preconditions for credit institution activities referred to in chapters 9 and 10 of the Credit Institutions Act, and the regular disclosure obligation required by the supervision of these preconditions. (Issued on 7.9.2.2022, valid from 1.10.2022)",
+            "(22) Article 178(2)(d) of the CRR requires that the competent authority defines thresholds for material credit obligations past due. REGULATION (23)",
+            "(23) The threshold referred to in paragraph (20) is the same regardless of whether the supervised entity applies the standardised approach or internal ratings-based approach in the calculation of FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice FIN S C FIN FIN CIN FIN FIN A A 24 (45) capital requirements for credit risk. Supervised entities must comply with the provisions on the definition of default in section 7.5. (Issued on 7.9.2022, valid from 1.10.2022)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "7.1",
+        "article name": "IRBA-related abbreviations",
+        "article paragraphs": [
+            "(1) The following abbreviations are used in this section: · IRBA Internal Ratings Based Approach · FIRB Foundation Internal Ratings Based Approach · AIRB Advanced Internal Ratings Based Approach"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "7.2",
+        "article name": "Regulatory framework",
+        "article paragraphs": [
+            "(2) On 21 July 2016, the EBA has published and submitted a draft regulatory technical standard for adoption by the Commission on the specification of the assessment methodology for competent authorities regarding compliance of an institution with the requirements to use the IRB Approach.4 Commission Delegated Regulation (EU) 2022/4395 on the abovementioned draft standard including amendments made by the Commission was published in the EU Official Journal on 18 March 2022. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(3) On 16 November 2018, the EBA has published and submitted a draft regulatory technical standard for adoption by the Commission on the specification of the nature, severity and duration of an economic downturn.6 Commission Delegated Regulation (EU) 2021/9307 on the abovementioned draft standard including amendments made by the Commission was published in the EU Official Journal on 10 March 2021. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(4) On 28 September 2016, the EBA has issued guidelines on the application of the definition of default under Article 178 of Regulation (EU) No 575/2013 (EBA/GL/2016/07).",
+            "(5) On 20 November 2017, the EBA has issued guidelines on PD estimation, LGD estimation and the treatment of defaulted exposures (EBA/GL/2017/16). (Issued on 25.8. 2020, valid from 1.3.2021)",
+            "(6) On 6 March 2019, the EBA has issued guidelines for the estimation of LGD appropriate for an economic downturn (EBA/GL/2019/03).",
+            "(7) On 6 May 2020, the EBA has issued guidelines on credit risk mitigation for institutions applying the IRB approach with own estimates of LGDs (EBA/GL/2020/05). (Issued on 25.8.2020, valid from 1.3.2021)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "6",
+        "article name": "The Final draft RTS on the specification of the nature, severity and duration of an economic downturn (EBA/RTS/2018/04)",
+        "article paragraphs": [
+            "(8) The FIN-FSA recommends that supervised entities comply with the Guidelines referred to in paragraphs (4), (5), (6) and (7). The Guidelines are available at Finanssivalvonta.fi. (Issued on 7.9. 2022, valid from 1.10.2022)",
+            "(9) In preparing the guidelines on internal models for significant credit institutions under its supervision, the European Central Bank (ECB) has relied on the EBA draft standards referred to paragraphs (2) and (3) as well as the EBA guidelines referred to in paragraphs (4) to (7). On 1 October 2019, the ECB published the first consolidated version of its guide to internal models, which includes chapters on general topics and chapters on specific risks. The FIN-FSA recommends that less significant institutions take the abovementioned ECB guide into account as applicable. The Financial Supervisory Authority takes into account, where applicable, the aforementioned ECB guide in its supervision related to the internal models of less significant financial institutions. (Issued on 7.9.2022, valid from 1.10.2022)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "7.3",
+        "article name": "Implementation of IRBA",
+        "article paragraphs": [
+            "(10) In accordance with chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA shall provide more detailed provisions required by the implementation of the CRD and the CRR on the financial preconditions for credit institution activities referred to in chapters 9 and 10 of the Credit Institutions Act, and the regular disclosure obligation required by the supervision of these preconditions. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(11) In accordance with Article 148(2) of the CRR, competent authorities shall determine the implementation period over which a supervised entity shall be required to implement the IRB Approach for all exposures, excluding items permanently excluded from the IRBA. REGULATION (paragraphs 12-13)",
+            "(12) The FIN-FSA rules that the duration of the implementation period shall not exceed five years. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(13) A supervised entity may apply an implementation period of up to five years in migrating from the FIRB to the AIRB."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "7.5",
+        "article name": "Definition of default",
+        "article paragraphs": [
+            "(16) In accordance with chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA shall provide more detailed provisions required by the implementation of the CRD and the CRR on the financial preconditions for credit institution activities referred to in chapters 9 and 10 of the Credit Institutions Act, and the regular disclosure obligation required by the supervision of these preconditions. (Issued on 7.9.2022, valid from 1.10.2022)",
+            "(17) Article 178(2)(d) of the CRR requires that the competent authority defines a threshold for the materiality of a credit obligation past due.",
+            "(18) In accordance with Articles 1 and 2 of Commission Delegated Regulation (EU) No 2018/1718, a competent authority shall set for all institutions in its jurisdiction a single materiality threshold for retail exposures and a single materiality threshold for exposures other than retail exposures.",
+            "(19) The European Central Bank has issued Guideline (EU) 2020/9789 on the exercise of the discretion under Article 178(2)(d) of Regulation (EU) No 575/2013 by national competent authorities in relation to less significant institutions with regard to the threshold for assessing the materiality of credit obligations past due, irrespective of the method used for the calculation of their risk-weighted exposure amounts. (Issued on 25.8.2020, valid from 1.3.2021) REGULATION (paragraphs 20-22)",
+            "(20) In applying Article 178(2)(d) of the CRR as supplemented by Articles 1 and 2 of Commission Delegated Regulation No 2018/171, credit institutions shall assess the materiality of the credit obligation past due relative to the following threshold consisting of two components: a) a limit (absolute threshold) in terms of the sum of all amounts past due owed by an obligor to the credit institution, the parent undertaking of that credit institution or any of its subsidiaries (hereinafter \"credit obligation past due\") and corresponding to: i) EUR 100 for retail exposures; ii) EUR 500 for exposures other than retail exposures; and b) a limit (relative threshold) in terms of the amount of the credit obligation past due in relation to the total amount of all on-balance sheet exposures to that obligor for the credit institution, the parent undertaking of that institution or any of its subsidiaries - excluding equity exposures - and corresponding to 1%.",
+            "(21) Credit institutions applying the definition of default provided in Article 178, paragraph 1, subparagraphs (a) and (b) to retail exposures at the level of an individual credit facility are subject to the threshold provided in paragraph (20) at the level of a credit facility granted to an obligor by the credit institution, parent company or any subsidiary thereof. (Issued on 7.92022, valid from 1.10.2022) 8 Commission Delegated Regulation (EU) No 2018/171 of 19 October 2017 on supplementing Regulation (EU) No 575/2013 of the European Parliament and of the Council with regard to regulatory technical standards for the materiality threshold for credit obligations past due; 9 Guideline (EU) 2020/978 of the European Central Bank of 25 June 2020 on the exercise of the discretion under Article 178(2)(d) of Regulation (EU) No 575/2013 of the European Parliament and of the Council by national competent authorities in relation to less significant institutions with regard to the threshold for assessing the materiality of credit obligations past due (ECB/2020/32) FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: 14 June 2019 Valid from: 1 September 2019 until further notice FIN S C FIN FIN CIN A FIN FIN 28 (45)",
+            "(22) Default shall be deemed to have occurred when both limits determined in subparagraphs a) and b) of paragraph (20) are exceeded for more than 90 consecutive days. (Issued on 7.9.2022, valid from 1.10.2022) FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice S C FIN A FIN FIN CIN 29 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "8.1",
+        "article name": "Sovereign and other public sector counter-guarantees",
+        "article paragraphs": [
+            "(1) In accordance with Article 214(2) of the CRR, the treatment established in paragraph 1 of the same Article shall apply to exposures protected by a guarantee which is counter-guaranteed by central government or central bank (subparagraph a).",
+            "(2) Finnvera Plc is a specialised financial institution whose activities are governed by the Act on the State-Owned Specialised Financing Company and the Act on Credit, Guarantee and Capital Investment Operations Provided by the State-Owned Specialised Financing Company. These Acts provide that the responsibility of the state for Finnvera Plc's commitments is a direct commitment comparable to an absolute guarantee.",
+            "(3) In accordance with the further requirements set out in Article 215, paragraphs 1 and 2 of the CRR, guarantees and counter-guarantees by entities listed in Article 214 qualify as eligible unfunded credit protection, where the relieved requirements referred to in Article 214(2)(a) and (b) are satisfied. GUIDELINE (paragraphs 4-6)",
+            "(4) According to the FIN-FSA's interpretation, the Finnish government shall be deemed a central government referred to in Article 214(2)(a) of the CRR.",
+            "(5) According to the FIN-FSA's interpretation, a guarantee provided by Finnvera Plc qualifies as an eligible unfunded credit protection as referred to in Article 197 of the CRR and similar to a guarantee provided by the Finnish government insofar as the guarantee provided by Finnvera Plc satisfies the other conditions set out in Articles 213 and 215 of the CRR.",
+            "(6) According to the FIN-FSA's interpretation, supplementary guarantees provided by the Finnish government and municipalities qualify as mitigating credit risk in capital requirements calculation insofar as they, in addition to the general provisions of Article 213 of the CRR, satisfy the specific conditions set out in Article 214(2)(a) and (b). FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice FIN S C FIN FIN FIN CIN *************** A A 30 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "10.1",
+        "article name": "EBA Guidelines",
+        "article paragraphs": [
+            "(1) On 7 July 2014, the EBA has issued guidelines on assessment of significant credit risk transfer in securitisation transactions (EBA/GL/2014/05). GUIDELINE (paragraph 2)",
+            "(2) The FIN-FSA recommends that supervised entities comply with the EBA Guidelines referred to in paragraph (1) insofar as they apply to a supervised entity as the originator of a security transaction. The Guidelines are available at Finanssivalvonta.fi.",
+            "(3) On 4 May 2020, the EBA has issued Guidelines on the determination of the weighted average maturity of contractual payments due under the tranche of a securitisation transaction (EBA/GL/2020/04) (Issued on 25.8.2020, valid from 1.3.2021) GUIDELINE (paragraph 4)",
+            "(4) The FIN-FSA recommends that supervised entities follow the Guidelines mentioned in paragraph (3) when calculating the maturity of contractual payments due under the tranche of a securitisation transaction, under Article 257(1)(a) of Regulation EU No 575/2013. The Guidelines are available at Finanssivalvonta.fi. (Issued on 25.8.2020, valid from 1.3.2021)",
+            "(5) On 24 November 2016, the EBA has issued Guidelines on implicit support for securitisation transactions (EBA/GL/2016/08). GUIDELINE (paragraph 6)",
+            "(6) The FIN-FSA recommends that sponsor institutions and originator institutions comply with the EBA Guidelines referred to in paragraph (5) on support provided to securitisations beyond their contractual obligations. The Guidelines are available at Finanssivalvonta.fi. FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice FIN CIN S C FIN FIN FIN *************** A A 33 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "12.3",
+        "article name": "Limits to large exposures",
+        "article paragraphs": [
+            "(9) In accordance with Article 395(3) of the CRR, competent authorities may set a lower limit than EUR 150 million.",
+            "(10) The FIN-FSA has not set a lower limit."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13",
+        "article name": "Liquidity risk requirements",
+        "article paragraphs": [
+            "(1) In this section, by virtue of chapter 11, section 16 of the Credit Institutions Act, the FIN-FSA provides the regulations referred to in EU Regulations."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13.3.2",
+        "article name": "Determination of the term of encumbrance of segregated assets",
+        "article paragraphs": [
+            "(8) In accordance with Article 428q(2) of the CRR, institutions shall treat assets that have been segregated in accordance with Article 11(3) of Regulation (EU) No 648/2012 in accordance with the underlying exposure of those asset. Institutions shall, however, subject those assets to higher required stable funding factors, depending on the term of encumbrance to be determined by the competent authorities, who shall consider whether the institution is able to freely dispose of or exchange such assets and shall consider the term of the liabilities to the institutions' customers to whom that segregation requirement relates. REGULATION (paragraph 9)",
+            "(9) The FIN-FSA rules that the term of encumbrance for assets referred to in paragraph (8) shall be a period corresponding to the term of the credit subject to the segregation requirement granted to the supervised entity's customers."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13.3.4",
+        "article name": "Determination of the term of encumbrance of segregated assets in simplified calculation",
+        "article paragraphs": [
+            "(12) In accordance with Article 428ar(2) of the CRR, institutions shall treat assets that have been segregated in accordance with Article 11(3) of Regulation (EU) No 648/2012 in accordance with the underlying exposure of those asset. Institutions shall, however, subject those assets to higher required stable funding factors, depending on the term of encumbrance to be determined by the competent authorities, who shall consider whether the institution is able to freely dispose of or exchange such assets and shall consider the term of the liabilities to the institutions' customers to whom that segregation requirement relates. REGULATION (paragraph 13)",
+            "(13) The FIN-FSA rules that supervised entities which have been granted permission to apply simplified calculation of the stable funding requirement shall apply the procedure referred to above in paragraph (9). FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice 40 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2023",
+        "document name": "maaraykset-ja-ohjeet-2_2023_en.m3-clean.di",
+        "article id": "4.1",
+        "article name": "General",
+        "article paragraphs": [
+            "(1) The EBA has issued Risk Factors Guidelines (EBA/GL/2021/02), which apply to supervised entities referred to in paragraph 1 of chapter 1.1. In accordance with Article 16(3) of the EBA Regulation, financial institutions shall make every effort to comply with EBA guidelines. GUIDELINE (paragraph 2)",
+            "(2) The FIN-FSA recommends that supervised entities referred to in paragraph 2 of chapter 1.1. also comply with the EBA Risk Factors Guidelines, as applicable."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2023",
+        "document name": "maaraykset-ja-ohjeet-2_2023_en.m3-clean.di",
+        "article id": "6.7.3",
+        "article name": "Correspondent banking relationship with a counterparty established in the EEA",
+        "article paragraphs": [
+            "(207) In accordance with chapter 3, section 10(1) of the AML Act, an obliged entity shall apply the enhanced customer due diligence procedure for example where, based on the risk assessment, it FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 2/2023 Issued 22.5.2023 Valid from 26.6.2023 until further notice S C FIN FIN FIN CIN A A 60 (87) estimates a higher than ordinary risk of money laundering and terrorist financing to attach to the case.",
+            "(208) Guidelines 209-211 apply, in addition to credit and financial institutions, to payment institutions and payment service providers referred to in sections 7 and 7 a of the Payment Institutions Act. GUIDELINE (paragraphs 209-211)",
+            "(209) According to the FIN-FSA's interpretation, chapter 3, section 10(1) of the AML Act means that a supervised entity may, based on the assessment of risks related to a correspondent banking relationship, come to the conclusion that enhanced due diligence measures are required in respect of the counterparty even though it is established in the EEA. 42 Example: An indication of elevated risk could be, for example, if the counterparty is located in an EEA member state which is placed on a list maintained by the FATF of countries with strategic deficiencies in their regimes to counter and investigate money laundering and terrorist financing and which have prepared an action plan with the FATF to eliminate these deficiencies43. However, this does not mean that enhanced due diligence measures should be automatically applied to the counterparty.",
+            "(210) According to the FIN-FSA's interpretation, if a supervised entity intends to enter into correspondent banking relationships, it shall, as part of the procedures referred to in chapter 2, section 3(2), prepare risk-based approaches to be followed in the correspondent banking relationship to obtain adequate information, including procedures to comply with the enhanced due diligence obligation.",
+            "(211) The FIN-FSA recommends that, in correspondent banking relationships with counterparties domiciled within the EEA, the supervised entity, applying a risk-based approach: · obtains adequate information on the counterparty to understand what its business consists of and to ensure that the counterparty has effective procedures to ensure compliance with AML/CFT regulations · assesses the reputation of the counterparty based on publicly available information · assesses the quality of supervision targeted at the supervised entity · carefully identifies the beneficial owners and owners of the counterparty and assesses the risks pertaining to its ownership structure."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2023",
+        "document name": "maaraykset-ja-ohjeet-2_2023_en.m3-clean.di",
+        "article id": "8.1",
+        "article name": "General",
+        "article paragraphs": [
+            "(1) The EBA has issued Guidelines on Risk Factors (EBA/GL/2021/02) which apply to supervised entities referred to in paragraph 1 of chapter 1.1. In accordance with Article 16(3) of the EBA Regulation, financial institutions must make every effort to comply with EBA guidelines. GUIDELINE (paragraph 2)",
+            "(2) The FIN-FSA recommends that also supervised entities referred to in paragraph 2 of chapter 1.1 comply with the EBA Risk Factors Guidelines when considering whether to refuse a new customer relationship or take measures to restrict services for existing customers or terminate a customer relationship, as applicable."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 6/2014",
+        "document name": "regulations-and-guidelines-6_2014-reporting-of-funding-plans.di",
+        "article id": "1.1",
+        "article name": "Scope of application",
+        "article paragraphs": [
+            "(1) These regulations and guidelines apply to credit institutions defined as significant in accordance with the criteria provided in the Regulation on the Single Supervision Mechanism1 (SSM Regulation) and the SSM Framework Regulation2, and which hence fall within the scope of direct supervision by the European Central Bank (ECB)."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 6/2014",
+        "document name": "regulations-and-guidelines-6_2014-reporting-of-funding-plans.di",
+        "article id": "2.3",
+        "article name": "Decision of the European Central Bank (ECB)",
+        "article paragraphs": [
+            "(3) On 27 June 2017, the ECB adopted a decision on the reporting of funding plans of credit institutions by national competent authorities to the European Central Bank (ECB/2017/21). (Issued on 16.6.2020, valid from 31.12.2020)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 6/2014",
+        "document name": "regulations-and-guidelines-6_2014-reporting-of-funding-plans.di",
+        "article id": "3.2",
+        "article name": "Guidelines on the submission of supervisory information",
+        "article paragraphs": [
+            "(6) Reporting under these regulations and guidelines is subject to the description of electronic reporting available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022).",
+            "(7) A description of the data collection concerning funding plans referred to in these regulations and guidelines is presented at the FIN-FSA's website in connection with these regulations and guidelines.",
+            "(8) FIN-FSA recommends that credit institutions belonging to an amalgamation of deposit banks organise the submission of information referred to above in paragraphs (1-7) so that the member credit institutions submit the information to the central body of the amalgamation of deposit banks, which submits the information of the member banks in a centralised manner to FIN-FSA. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 6/2014 Issued 4.12.2014 Valid from 30.6.2015 until further notice FIN FIN CIN *************** A 7 (8)",
+            "(9) Reporting under these regulations and guidelines shall be made in accordance with the more detailed instructions available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022)"
+        ]
+    }
+]

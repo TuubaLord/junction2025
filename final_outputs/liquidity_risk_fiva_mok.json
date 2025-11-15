@@ -1,0 +1,121 @@
+[
+    {
+        "document title": "Regulations and guidelines 1/2014",
+        "document name": "01_2014.m9_en.di",
+        "article id": "5",
+        "article name": "Repealed regulations and guidelines",
+        "article paragraphs": [
+            "(1) Upon entry into force, these regulations and guidelines shall repeal the following FIN-FSA standards, as well as regulations and guidelines: · FIN-FSA standard RA4.5, Reporting of interest rate risk · FIN-FSA standard RA4.6, Reporting of non-performing and zero-interest assets. · FIN-FSA standard RA4.7, Reporting of liquidity risk.",
+            "(2) These regulations and guidelines, as of 1 July 2014, repeal FIN-FSA regulations and guidelines 9/2012 Reporting of largest counterparties. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 1/2014 Issued 6.3.2014 Valid from 31.3.2014 until further notice S FIN FIN FIN 12 (15)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 7/2012",
+        "document name": "2012_07.M2_en.di",
+        "article id": "1.2",
+        "article name": "Definitions",
+        "article paragraphs": [
+            "(2) In these regulations and guidelines, supervised entity refers to all companies within the scope of application of these regulations and guidelines.",
+            "(3) Cover pool refers, in the context of application of the Act on Mortgage Credit Bank Operations 688/2010, to a part of the bond register consisting of collateral pledged as security for example for a specific issue of covered bonds or a specific programme of covered bonds. In the context of application of the new Act (151/2022), cover pool is defined in accordance with the definition provided in section 2 of said Act. (Issued on 8 December 2022, valid from 30 June 2023)",
+            "(4) Collateral portfolio refers to the aggregate portfolio consisting of all mortgage loans, loans to the public sector, supplementary collateral as well as assets and hedges used to cover the liquidity requirement. (Issued on 8 December 2022, valid from 30 June 2023)",
+            "(5) Loan-to-value ratio (LTV) is calculated by dividing the amount of a residential or commercial property mortgage by the amount of collateral for the mortgage loan. In calculating the average LTV percentage for residential or commercial property mortgages included in the cover pools or the collateral portfolio, the total loan amount shall be used as the weighting factor and the fair value recorded in the bank's systems as the collateral value. (Issued on 8 December 2022, valid from 30 June 2023) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 7/2012 Issued Valid from 26 July 2012 31 December 2012 until further notice 6 (24)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 7/2012",
+        "document name": "2012_07.M2_en.di",
+        "article id": "4.2.6.1",
+        "article name": "Liquidity coverage ratio of the cover pool (section 31 of the MCBCBA)",
+        "article paragraphs": [
+            "(87) R 75 Amount of funds required to cover the liquidity requirement (section 31 of the MCBCBA) Enter here the amount of funds required to meet the required liquidity coverage ratio under section 31, determined for each cover pool as follows: Let t be the variable indicating the cash flow calculation day in population {1, ... , 180}. Here day 0 means the present day. Let St be the cash flow for the cover pool on day t and ut be the cash flow of liability items pertaining to the FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 7/2012 Issued 26 July 2012 Valid from 31 December 2012 until further notice FIN S C FIN FIN FIN CIN A A 19 (24) cover pool on day t. Hence, the net cash flow for day t is nt = Ut - St. The cumulative net cash flow is NE= > ni = { i=1, ... ,t i=1, ... ,t Ui - Si, Whereby we are able to determine the highest net cash flow as the reportable variable R R = max Nt. te{1, ... ,180} Supervised entities may also employ other calculation methodologies than the one described above as long as the outcome is consistent with the outcome R of the above calculation. If the outcome of the calculation is a negative amount, report 0 in the row. The future cash flows from variable rate contracts shall be estimated using a method that is documented in writing and approved by the Board of the bank. The evaluation of future interest cash flows of variable rate contracts may, for example, be based on the forward yield curve derived from the interest rate swap curve (MCBCBA, section 31)."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 2/2024",
+        "document name": "2024_01.m1_en.di",
+        "article id": "4.4",
+        "article name": "Liquidity requirements",
+        "article paragraphs": [
+            "(1) In accordance with section 31, subsection 1 of the MCBCBA, the issuer shall ensure that the cover pool continuously contains an amount of funds that meets the requirements laid down in section 18, subsections 1 and 2 and covers the maximum cumulative net liquidity outflow relating to covered bonds over the next 180 days (liquidity buffer requirement).",
+            "(2) In accordance with section 31, subsection 3 of the MCBCBA, the FIN-FSA may issue further regulations on the calculation of the liquidity buffer requirement. REGULATION (paragraph 3)",
+            "(3) The future cash flows from variable rate contracts shall be estimated using a method that is documented in writing and approved by the board of directors of the supervised entity. GUIDELINE (paragraph 4)",
+            "(4) The FIN-FSA recommends that supervised entities estimate the effect of the alternative scenarios on cash flows from the contracts and maximum net outflows on a regular basis. It is also recommended that the effects of the alternative scenarios on liquidity requirements are taken into consideration when determining the risk appetites and risk limits of the mortgage bank operations. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines / Issued 18 October 2024 Valid from 1 January 2025 until further notice FS FIN FIN 10 (12)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13.2.1",
+        "article name": "Major stock market indices",
+        "article paragraphs": [
+            "(2) In accordance with Article 12(1)(c)(i) of Commission Delegated Regulation (EU) 2015/61 on liquidity coverage requirement for credit institutions, competent authority of a member state or the relevant public authority in a third country may decide which major stock indexes' constituent shares are eligible as level 2B assets in calculating the liquidity coverage ratio. REGULATION (paragraph 3)",
+            "(3) The following indexes shall be considered major stock indexes as referred to in paragraph (2): · indexes listed in Annex I of Commission Implementing Regulation (EU) 2016/1646 on main indices and recognised exchanges; · stock indexes other than those referred to above, which have been defined as major indexes for this purpose by the competent authority of a member state or a public authority of a third country; · major indexes other than those specified in the paragraphs above, which include the most important companies of the jurisdiction concerned."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13.2.2",
+        "article name": "Level 2B assets",
+        "article paragraphs": [
+            "(4) Article 12(3) of Commission Delegated Regulation (EU) 2015/61 on liquidity coverage requirement for credit institutions provides that, as regards credit institutions which in accordance with their statutes of incorporation are unable for reasons of religious observance to hold interest bearing assets, the competent authority may allow to derogate from points (ii) and (iii) of paragraph 1(b) of this Article, provided there is evidence of insufficient availability of non-interest bearing assets meeting these requirements and the non-interest bearing assets in question are adequately liquid in private markets. REGULATION (paragraph 5)",
+            "(5) Supervised entities which in accordance with their statutes of incorporation are unable for reasons of religious observance to hold interest bearing assets, may include corporate debt securities as Level 2B liquid assets in subject to the preconditions specified in Article 12(1)(b) of Delegated Regulation (EU) N:o 2015/61. FIN-FSA FINANSSIVALVONTA Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice CIN S C FIN FIN FIN *************** A A 38 (45)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "13.3.1",
+        "article name": "Required stable funding factors for off-balance sheet items",
+        "article paragraphs": [
+            "(6) In accordance with Article 428p(10) of the CRR, competent authorities may determine the required stable funding factors to be applied to off-balance-sheet exposures that are not referred to in this Chapter12 to ensure that institutions hold an appropriate amount of available stable funding for the portion of those exposures that are expected to require funding over the one-year horizon of the net stable funding ratio. To determine those factors, competent authorities shall, in particular, take into account the material reputational damage to the institution that could result from not providing that funding. REGULATION (paragraph 7)",
+            "(7) The FIN-FSA rules that, as regards off-balance sheet items referred to in paragraph (6), supervised entities shall apply required stable funding factors consistent with the outflow rates they apply to corresponding products and services in the calculation of the liquidity coverage ratio."
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 5/2019",
+        "document name": "5_2019_m4_en.di",
+        "article id": "14.1",
+        "article name": "EBA Guidelines",
+        "article paragraphs": [
+            "(1) On 23 December 2014, the EBA has issued Guidelines on materiality, proprietary and confidentiality and on disclosure frequency under Articles 432(1), 432(2) and 433 of Regulation (EU) No 575/2013 (EBA/GL/2014/14).",
+            "(2) On 27 July 2014, the EBA has issued Guidelines on disclosure of encumbered and unencumbered assets (EBA/GL/2014/03).",
+            "(3) On 14 December 2016, the EBA has issued Guidelines on disclosure requirements under Part Eight of Regulation (EU) No 575/2013 (EBA/GL/2016/11).",
+            "(4) On 21 June 2017, the EBA has issued Guidelines on LCR disclosure to complement the disclosure of liquidity risk management under Article 435 of Regulation (EU) No 575/2013 (EBA/GL/2017/01).",
+            "(5) On 16 January 2018, the EBA has issued Guidelines on uniform disclosures under Article 473a of Regulation (EU) No 575/2013 as regards the transitional period for mitigating the impact of the introduction of IFRS 9 on own funds (EBA/GL/2018/01).",
+            "(6) On 17 December 2018, the EBA has issued Guidelines on disclosure of non-performing and forborne exposures (EBA/GL/2018/10). The Guidelines apply as of 31 December 2019.",
+            "(7) On 11 August 2020, the EBA has issued Guidelines on supervisory reporting and disclosure requirements in compliance with CRR \"quick fix\" in response to the COVID-19 pandemic (EBA/GL/2020/11). (Issued on 21.10.2020, valid from 1.3.2021)",
+            "(8) On 11 August 2020, the EBA has issued Guidelines amending Guidelines on uniform disclosures under Article 473a of Regulation (EU) No 575/2013 (CRR) on the transitional period for mitigating the impact of the introduction of IFRS 9 on own funds to ensure compliance with the CRR \"quick fix\" in response to the COVID-19 pandemic (EBA/GL/2020/12). (Issued on 21.10.2020, valid from 1.3.2021) GUIDELINE (paragraph 9)",
+            "(9) The FIN-FSA recommends that supervised entities comply with the EBA Guidelines referred to above in paragraphs (1)-(6), available at Finanssivalvonta.fi. (Issued on 20.1.2021, valid from 1.3.2021)",
+            "(10) In accordance with paragraph 9 of EBA/GL/2016/11, competent authorities may require institutions that are neither G-SIIs nor O-SIIs to apply some or all guidance in these guidelines when complying with the requirements in Part Eight of the CRR. FIN-FSA FINANSSIVALVONTA A A *************** CIN FIN S C FIN FIN FIN Regulations and guidelines 5/2019 Issued on: Valid from: 14 June 2019 1 September 2019 until further notice 41 (45) GUIDELINE (paragraph 11)",
+            "(11) The FIN-FSA recommends that supervised entities referred to above in paragraph (10) comply with paragraph (8) of the EBA Guidelines as such and other advice provided in the Guidelines as best practices, as applicable.",
+            "(12) On 2 June 2020, the EBA has issued Guidelines on reporting and disclosure of exposures subject to measures applied in response to the COVID-19 crisis (EBA/GL/2020/07). On these Guidelines, the FIN-FSA has issued separate Regulations and guidelines 3/2020: Guidelines on reporting and disclosure of exposures subject to measures applied in response to the COVID-19 crisis (Issued on 20.1.2021, valid from 1.3.2021)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 14/2013 Third-country members",
+        "document name": "mok-14_2013-third-country-members.di",
+        "article id": "1.2",
+        "article name": "Definitions",
+        "article paragraphs": [
+            "(2) Stock exchange means the operator of a regulated market referred to in chapter 1, section 2, paragraph 7 of the Act on Trading in Financial Instruments.",
+            "(3) Operator of a multilateral trading facility means an entity referred to in chapter 1, section 2, paragraph 12 of the Act on Trading in Financial Instruments.",
+            "(4) Third country means a state other than an EEA member state, as referred to in chapter 1, section 2, paragraph 26 of the Act on Trading in Financial Instruments.",
+            "(5) Member means an investment service provider or another person to whom a stock exchange or an operator of a multilateral trading facility grants a permission to trade on the trading venue in question, as referred to in chapter 1, section 2, paragraph 15 of the Act on Trading in Financial Instruments.",
+            "(6) Investment service provider, as referred to in chapter 1, section 2, paragraph 14 of the Act on Trading in Financial Instruments, means an investment firm and a foreign EEA investment firm referred to in the Act on Investment Services, a credit institution and a foreign EEA credit institution referred to in the Act on Credit Institutions that provides investment services or conducts investment activities. (Issued on 13.9.2021, valid from 1.1.2022)",
+            "(7) Direct electronic access means an arrangement referred to in chapter 3, section 19 of the Act on Trading in Financial Instruments where an investment service provider acting as a member permits a client to use its trading code so that the client can electronically transmit orders relating to a financial instrument directly to the trading venue. (Issued on 13.9.2021, valid from 1.1.2022) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY FIN S C FIN FIN CIN *************** A Regulations and guidelines 14/2013 Issued Valid from 10.6.2013 1.7.2013 until further notice FIN S C FIN FIN CIN FIN A A 5 (12)",
+            "(8) Membership applicant means a third-country investment service provider or another person as referred to in chapter 3, section 15, subsection 3 and chapter 5, section 19, subsection 2 of the Act on Trading in Financial Instruments, applying for a membership rights from a stock exchange or an operator of a multilateral trading facility. (Issued on 13.9.2021, valid from 1.1.2022)",
+            "(9) Applicant for direct electronic access means an EEA investment service provider acting as a member, as referred to in chapter 3, section 15, subsection 1 and chapter 5, section 19, subsection 2 of the Act on Trading in Financial Instruments that is applying for a permission from a stock exchange or an operator of a multilateral trading facility to provide direct electronic access to its client, which is a third-country investment service provider or another person, as referred to in chapter 3, section 19, subsection 1 of the Act on Trading in Financial Instruments. (Issued on 13.9.2021, valid from 1.1.2022) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 14/2013 Issued 10.6.2013 Valid from 1.7.2013 until further notice S C FIN FIN FIN CIN A 6 (12)"
+        ]
+    },
+    {
+        "document title": "Regulations and guidelines 6/2014",
+        "document name": "regulations-and-guidelines-6_2014-reporting-of-funding-plans.di",
+        "article id": "2.4",
+        "article name": "Recommendations of the European Systemic Risk Board (ESRB)",
+        "article paragraphs": [
+            "(4) The Guidelines issued by the EBA are based on the recommendation of the ESRB of 20 December 2012 on funding of credit institutions (ESRB 2012/2).3",
+            "(5) The ESRB recommends that national data collection is applied to credit institutions covering at least 75% of the consolidated assets of the banking sector. 3 RECOMMENDATION OF THE EUROPEAN SYSTEMIC RISK BOARD of 20 December 2012 on funding of credit institutions (ESRB/2012/2) FIN-FSA FINANCIAL SUPERVISORY AUTHORITY 6 (8) A A FIN FIN CIN S C FIN Regulations and guidelines 6/2014 Issued 4.12.2014 Valid from 30.6.2015 until further notice"
+        ]
+    }
+]
