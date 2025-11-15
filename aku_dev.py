@@ -123,9 +123,36 @@ def analyse_all_subcategories(json_path: str, output_path: str = "relations_outp
     return all_results
 
 
+def summarize_relations(results: list) -> dict:
+    """
+    Count how many overlaps and contradictions exist in the results.
+
+    results: list of dicts with key "relation" == "overlap" or "contradiction"
+
+    Returns:
+        {
+            "overlap": <int>,
+            "contradiction": <int>,
+            "total": <int>
+        }
+    """
+    counts = {"overlap": 0, "contradiction": 0}
+    for r in results:
+        rel = r.get("relation")
+        if rel in counts:
+            counts[rel] += 1
+
+    counts["total"] = counts["overlap"] + counts["contradiction"]
+    return counts
+
+
 if __name__ == "__main__":
     results = analyse_all_subcategories("aku_dev.json")
-    print(len(results), "pairs analysed")
+    summary = summarize_relations(results)
+    print("Overlaps:", summary["overlap"])
+    print("Contradictions:", summary["contradiction"])
+    print("Total pairs:", summary["total"])
+
 
 # import json
 # import itertools

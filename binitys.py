@@ -96,7 +96,8 @@ def cluster_articles_by_similarity(articles, threshold=0.6):
         if idx == 0:
             # first article becomes reference
             reference_articles.append(article)
-            clusters[article_label] = [{"article": article, "reference_article": True}]
+            clusters[article_label] = [
+                {"article": article, "reference_article": True}]
             print(f"→ Article {article_label} added as first reference\n")
             continue
 
@@ -112,7 +113,8 @@ def cluster_articles_by_similarity(articles, threshold=0.6):
 
             ref_label = f"{ref.get('document name', '')} {ref.get('article id', '')}"
             score = compare_articles_score(article, ref)
-            print(f"   Compared {article_label} -> {ref_label}: similarity {score:.2f}")
+            print(
+                f"   Compared {article_label} -> {ref_label}: similarity {score:.2f}")
 
             if score > threshold:
                 prelim_matches.append((ref_label, score))
@@ -125,7 +127,8 @@ def cluster_articles_by_similarity(articles, threshold=0.6):
                 # skip further comparisons for this article
                 best_score = score
                 best_ref_label = ref_label
-                prelim_matches = [(ref_label, score)]  # override prelim matches
+                # override prelim matches
+                prelim_matches = [(ref_label, score)]
                 print(
                     f"     → High similarity {score:.2f} reached, skipping further comparisons"
                 )
@@ -144,7 +147,8 @@ def cluster_articles_by_similarity(articles, threshold=0.6):
         else:
             # no match above threshold → new reference
             reference_articles.append(article)
-            clusters[article_label] = [{"article": article, "reference_article": True}]
+            clusters[article_label] = [
+                {"article": article, "reference_article": True}]
             print(
                 f"   → {article_label} did not match any reference, added as new reference\n"
             )
@@ -159,7 +163,8 @@ def save_clusters_to_json(clusters, filename="clustered_articles.json"):
     # Convert to list format
     output = []
     for ref_label, articles_list in clusters.items():
-        cluster_data = {"reference_label": ref_label, "articles": articles_list}
+        cluster_data = {"reference_label": ref_label,
+                        "articles": articles_list}
         output.append(cluster_data)
 
     with open(filename, "w", encoding="utf-8") as f:
@@ -174,11 +179,11 @@ def save_clusters_to_json(clusters, filename="clustered_articles.json"):
 if __name__ == "__main__":
     # Load articles from JSON
     with open(
-        "categorized_cleaned_data/compliance_risk_eba.json", "r", encoding="utf-8"
+        "categorized_cleaned_data/liquidity_risk_eba.json", "r", encoding="utf-8"
     ) as f:
         data1 = json.load(f)
     with open(
-        "categorized_cleaned_data/compliance_risk_fiva_mok.json", "r", encoding="utf-8"
+        "categorized_cleaned_data/liquidity_risk_fiva_mok.json", "r", encoding="utf-8"
     ) as f:
         data2 = json.load(f)
 
