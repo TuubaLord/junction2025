@@ -143,6 +143,7 @@ def analyse_clustered_file(
     all_results = []
 
     for subcat in data:
+        print("start new subcat")
         subcat_label = subcat.get("reference_label", "UNKNOWN_SUBCATEGORY")
         articles = subcat.get("articles", [])
 
@@ -192,7 +193,7 @@ def analyse_clustered_file(
 if __name__ == "__main__":
     # Example usage with your file:
     results = analyse_clustered_file(
-        "clustered_data/credit_risk_clustered.json"
+        "clustered_data/compliance_risk_clustered_old.json"
     )
     summary = summarize_relations(results)
 
