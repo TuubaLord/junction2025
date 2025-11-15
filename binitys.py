@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
     articles = data1 + data2
     # Cluster articles
-    clusters = cluster_articles_by_similarity(articles, threshold=0.8)
+    clusters = cluster_articles_by_similarity(articles, threshold=0.6)
 
     # Save to JSON
     save_clusters_to_json(clusters)
