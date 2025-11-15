@@ -1,0 +1,52 @@
+{
+    "articles": [
+        {
+            "document title": "A",
+            "document name": "A",
+            "article id": "A",
+            "article name": "A",
+            "article paragraphs": [
+                "Supervised entities must ensure that the valuation of acceptable collateral is based on reliable appraisal methods, taking internationally recognised valuation standards into account."
+            ]
+        },
+        {
+            "document title": "B",
+            "document name": "B",
+            "article id": "B",
+            "article name": "B",
+            "article paragraphs": [
+                "Institutions should ensure an adequate rotation of valuers and define the number of sequential individual valuations of the same property that can be performed by the same valuer. Any further revaluations beyond this number should result in the rotation of the valuer, resulting in the appointment of either a different internal valuer or a different external valuer."
+            ]
+        },
+        {
+            "document title": "C",
+            "document name": "C",
+            "article id": "C",
+            "article name": "C",
+            "article paragraphs": [
+                "Institutions should ensure that the property collateral is valued in accordance with applicable international, European and national standards, such as the International Valuation Standards Council, the European Group of Valuers’ Associations European Valuation Standards and the Royal Institution of Chartered Surveyors standards."
+            ]
+        },
+        {
+            "document title": "D",
+            "document name": "D",
+            "article id": "D",
+            "article name": "D",
+            "article paragraphs": [
+                "Credit institutions should ensure adequate rotation of appraisers, i.e. two sequential individual valuations of the immovable property by the same appraiser should result in the rotation of the appraiser, resulting in the appointment of either a different internal appraiser or a different external appraisal provider."
+            ]
+        },
+        {
+            "document title": "E",
+            "document name": "E",
+            "article id": "E",
+            "article name": "E",
+            "article paragraphs": [
+                "(16) Reporting under these regulations and guidelines is subject to the description of electronic reporting available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022)",
+                "(17) The FIN-FSA recommends that credit institutions belonging to an amalgamation of deposit banks organise the submission of reports referred to above in paragraphs (1-7) and (8-13) so that the member credit institutions submit the information to the central body of the amalgamation of deposit banks, which submits the information of the member banks in a centralised manner to the FIN-FSA. FIN-FSA FINANCIAL SUPERVISORY AUTHORITY Regulations and guidelines 20/2013 Issued 9.12.2013 Valid from 1.1.2014 until further notice S FIN FIN FIN 9 (11)",
+                "(18) A description of the FINREP reporting framework referred to in these regulations and guidelines is presented at the FIN-FSA's website in connection with these regulations and guidelines.",
+                "(19) Reporting under these regulations and guidelines shall be made in accordance with more detailed reporting instructions available at the FIN-FSA's website (https://www.finanssivalvonta.fi/en/reporting/). (Issued on 16.6.2022, valid from 15.7.2022)"
+            ]
+        }
+    ]
+}

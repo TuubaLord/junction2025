@@ -7,6 +7,7 @@ from typing import List, Dict, Any, Optional
 # 1. Query Ollama locally (model: gemma3:4b)
 # ---------------------------------------------------------
 
+
 def query_llm(prompt: str) -> str:
     """
     Calls Ollama locally with model gemma3:4b.
@@ -85,6 +86,7 @@ def classify_article_category(article_paragraphs: List[str]) -> Optional[str]:
 # 3. Main splitting logic (article-level classification)
 # ---------------------------------------------------------
 
+
 def split_credit_related_by_risk(
     input_json: str = "credit_related_eba.json",
     out_credit: str = "credit_risk_eba.json",
@@ -115,8 +117,10 @@ def split_credit_related_by_risk(
         article_name = art.get("article name")
         paragraphs = art.get("article paragraphs", [])
 
-        print(f"Processing article {art_index}/{total_articles} "
-              f"(id={article_id}, {len(paragraphs)} paragraphs)")
+        print(
+            f"Processing article {art_index}/{total_articles} "
+            f"(id={article_id}, {len(paragraphs)} paragraphs)"
+        )
 
         if not paragraphs:
             print(f"  [WARN] Article {article_id} has no paragraphs, skipping")
@@ -127,13 +131,9 @@ def split_credit_related_by_risk(
 
         # Always print classification result
         if category is not None:
-            print(
-                f"  Article {article_id} classified as {category}"
-            )
+            print(f"  Article {article_id} classified as {category}")
         else:
-            print(
-                f"  Article {article_id} classified as UNCLASSIFIED"
-            )
+            print(f"  Article {article_id} classified as UNCLASSIFIED")
 
         # The record we store is still per-article, with all paragraphs included
         record = {
