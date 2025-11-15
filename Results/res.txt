@@ -1,0 +1,45 @@
+liquidity: 
+    109 article pairs analysed (including bloat)
+    Overlaps (used in metrics): 72
+    Contradictions (used in metrics): 9
+    Bloat (ignored in metrics): 28
+    Total used for metrics (overlap + contradiction): 81
+    Total pairs including bloat: 109
+
+
+market:
+
+    10 article pairs analysed (including bloat)
+    Overlaps (used in metrics): 4
+    Contradictions (used in metrics): 0
+    Bloat (ignored in metrics): 6
+    Total used for metrics (overlap + contradiction): 4
+    Total pairs including bloat: 10
+
+
+Operational:
+
+    171 article pairs analysed (including bloat)
+    Overlaps (used in metrics): 129
+    Contradictions (used in metrics): 18
+    Bloat (ignored in metrics): 24
+    Total used for metrics (overlap + contradiction): 147
+    Total pairs including bloat: 171
+
+Compliance:
+
+    Overlaps (used in metrics): 64
+    Contradictions (used in metrics): 26
+    Bloat (ignored in metrics): 59
+    Total used for metrics (overlap + contradiction): 90
+    Total pairs including bloat: 149
+    
+
+Credit:
+
+    601 article pairs analysed (including bloat)
+    Overlaps (used in metrics): 483
+    Contradictions (used in metrics): 45
+    Bloat (ignored in metrics): 73
+    Total used for metrics (overlap + contradiction): 528
+    Total pairs including bloat: 601
