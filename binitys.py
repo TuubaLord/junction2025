@@ -36,68 +36,6 @@ def compare_articles_score(article_a, article_b):
     text_a = build_article_text(article_a)
     text_b = build_article_text(article_b)
 
-    #     prompt = f"""
-    # Do these two financial regulation articles have the same or a conflicting rule? Answer with a number.
-
-    # Score 1.0 if the articles have any shared or conflicting rule. Score 0.0 if they do not.
-
-    # Output: A single number: 0.0 or 1.0.
-
-    # Article A: {text_a}
-
-    # Article B: {text_b}
-
-    # Answer:
-    # """.strip()
-
-    #     prompt = f"""
-    # I am categorising the key risks of financial corporations granting credit.
-
-    # You are a compliance analyst AI in the context of finance regulation. Compare two regulatory articles.
-
-    # Instructions:
-
-    # 1. Consider the articles **similar** if:
-    #    - Both contain at least one paragraph or section that defines the **same requirement or obligation**, even if the wording is slightly different.
-    #    - Both contain at least one paragraph or section that defines requirements for the same situation, even if the requirements **contradict** or differ in strictness.
-
-    # 2. Consider the articles **not similar** if:
-    #    - They only discuss the same topic or situation, but **no requirement or obligation overlaps or contradicts**.
-    #    - They are about entirely different topics.
-
-    # 3. Your task is to output a **single decimal number between 0 and 1** representing similarity:
-    #    - 1.0 = articles contain at least one overlapping or contradicting requirement
-    #    - 0.0 = no overlapping or contradicting requirements
-    #    - You may use intermediate values (e.g., 0.5) if there is partial overlap, but only score highly if there is **actual requirement overlap or contradiction**.
-
-    # Output: A single number between 0.00 and 1.00.
-
-    # Article A:
-    # {text_a}
-
-    # Article B:
-    # {text_b}
-
-    # Answer:
-
-    # """.strip()
-
-    #     prompt = f"""
-    # You are a compliance analyst AI. Compare the following two regulatory articles.
-
-    # Output a single decimal number between 0 and 1 representing their similarity:
-    # - 1.0 = very similar obligations and requirements imposed
-    # - 0.0 = completely unrelated articles
-    # - Round to two decimal places
-
-    # Article A:
-    # {text_a}
-
-    # Article B:
-    # {text_b}
-
-    # Answer with only the number:
-    # """.strip()
     prompt = f"""
     You are a compliance analyst AI for financial regulation. Compare the following two regulatory articles.
 
