@@ -88,7 +88,7 @@ def classify_article_category(article_paragraphs: List[str]) -> Optional[str]:
 
 
 def split_credit_related_by_risk(
-    input_json: str = "credit_related_eba copy.json",  # XXX
+    input_json: str = "credit_related_eba.json",
     out_credit: str = "credit_risk_eba.json",
     out_liquidity: str = "liquidity_risk_eba.json",
     out_market: str = "market_risk_eba.json",
