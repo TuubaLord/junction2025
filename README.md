@@ -231,8 +231,8 @@ ollama pull gemma3:1b
 
 ## 📝 License
 
-[Add your license here]
+MIT
 
 ## 👥 Contributors
 
-Junction 2025 Project Team
+osma.ovaskainen@aalto.fi
