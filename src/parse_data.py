@@ -117,7 +117,7 @@ def is_probable_article_heading(article_id, article_name):
 
 
 # --------------------------------------------------------------------
-# Core parsing functions
+# Core functions
 # --------------------------------------------------------------------
 
 
@@ -249,6 +249,8 @@ def parse_all_documents(source):
         print(f"Parsing {path}...")
         results.append(parse_document(path, config))
 
+    print(f"Successfully parsed {len(results)} EBA documents")
+
     return results
 
 
@@ -261,16 +263,13 @@ if __name__ == "__main__":
     source = "EBA"
     # source = "fiva_mok"
 
+    # Process
     results = parse_all_documents(source)
-    print(f"Successfully parsed {len(results)} EBA documents")
 
     # Save to file
     print("Saving results")
     save_dir = (
-        Path(__file__).parent.parent.resolve()
-        / "data"
-        / "intermediate"
-        / "parsed_documents"
+        Path(__file__).parent.parent.resolve() / "data" / "intermediate" / "parsed"
     )
     save_dir.mkdir(parents=True, exist_ok=True)
 
