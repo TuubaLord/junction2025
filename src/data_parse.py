@@ -24,10 +24,8 @@ MONTHS = (
 
 # Source-specific configurations
 SOURCE_CONFIGS = {
-    "common": {
-        "data_folder": Path(__file__).parent.parent.resolve() / "data" / "gold" / "EBA"
-    },
     "EBA": {
+        "data_folder": Path(__file__).parent.parent.resolve() / "data" / "gold" / "EBA",
         "file_pattern": "*.di.json",
         "heading_pattern": re.compile(r"^(\d+(?:\.\d+)*)\s+(.+)$"),
         # "(1) text" OR "1. text"
@@ -35,6 +33,10 @@ SOURCE_CONFIGS = {
         "title_keywords": ["Guidelines", "GUIDELINES"],
     },
     "fiva_mok": {
+        "data_folder": Path(__file__).parent.parent.resolve()
+        / "data"
+        / "gold"
+        / "FIVA_MOK",
         "file_pattern": "*.di.json",
         "heading_pattern": re.compile(r"^(\d+(?:\.\d+)*)\s+(.+)$"),
         # Only "(1) text"
@@ -51,8 +53,18 @@ SOURCE_CONFIGS = {
 
 def guess_document_title(paragraphs, config):
     """
-    Try to find the main title based on source-specific keywords.
-    Fallback: first non-empty paragraph.
+    Extract the main document title from paragraphs using source-specific keywords.
+
+    Searches through the first 50 paragraphs for lines containing title keywords
+    specific to the document source (e.g., "Guidelines" for EBA, "Regulations and guidelines"
+    for FIVA_MOK). Falls back to the first non-empty paragraph if no keywords are found.
+
+    Args:
+        paragraphs (List[str]): List of paragraph strings from the document
+        config (Dict): Source configuration containing "title_keywords" list
+
+    Returns:
+        str: The identified document title, or empty string if no content found
     """
 
     for p in paragraphs[:50]:
@@ -69,8 +81,18 @@ def guess_document_title(paragraphs, config):
 
 def is_probable_article_heading(article_id, article_name):
     """
-    Filter out things that look like metadata instead of real section headings.
-    This heuristic works for both EBA and FIVA_MOK documents.
+    Determine if a heading represents a genuine article section vs. metadata.
+
+    Uses heuristics to filter out document metadata like dates, page numbers,
+    publication info, and other non-content headings that appear in both EBA
+    and FIVA_MOK documents.
+
+    Args:
+        article_id (str): The numeric ID part of the heading (e.g., "4.1")
+        article_name (str): The text part of the heading (e.g., "General provisions")
+
+    Returns:
+        bool: True if this appears to be a legitimate article heading, False if likely metadata
     """
 
     # Page footers / pure numbers: no letters in title
@@ -123,8 +145,26 @@ def is_probable_article_heading(article_id, article_name):
 
 def parse_articles(paragraphs, config):
     """
-    Parse numbered article headings and their numbered paragraphs.
-    Uses source-specific configuration for paragraph patterns.
+    Extract structured articles from document paragraphs using source-specific patterns.
+
+    Processes a flat list of paragraphs to identify article headings (e.g., "4.1 General provisions")
+    and groups subsequent numbered paragraphs under each heading. Uses source-specific regex
+    patterns to handle different paragraph numbering formats (EBA supports both "(1)" and "1.",
+    while FIVA_MOK only supports "(1)").
+
+    Args:
+        paragraphs (List[str]): Flat list of all paragraph strings from the document
+        config (Dict): Source configuration containing regex patterns for headings and paragraphs
+
+    Returns:
+        List[Dict]: List of article dictionaries, each containing:
+            - "article id": The article number (e.g., "4.1")
+            - "article name": The article title (e.g., "General provisions")
+            - "article paragraphs": List of paragraph strings belonging to this article
+
+    Note:
+        Only returns articles that contain at least one numbered paragraph to filter out
+        table-of-contents entries and other non-content sections.
     """
 
     para_pattern = config["paragraph_pattern"]
@@ -202,7 +242,27 @@ def parse_articles(paragraphs, config):
 
 
 def parse_document(file_path, config):
-    """Parse a single document into the target structure."""
+    """
+    Parse a single JSON document file into structured article data.
+
+    Loads a .di.json file, extracts paragraphs from all pages, identifies the document
+    title, and parses articles using source-specific configuration patterns.
+
+    Args:
+        file_path (Path): Path to the .di.json document file to parse
+        config (Dict): Source configuration containing parsing patterns and keywords
+
+    Returns:
+        Dict: Document dictionary containing:
+            - "document title": Main title extracted from document content
+            - "document name": Filename without extension
+            - "articles": List of parsed article dictionaries
+
+    Raises:
+        FileNotFoundError: If the document file doesn't exist
+        json.JSONDecodeError: If the file contains invalid JSON
+        PermissionError: If file access is denied
+    """
 
     with open(file_path, "r", encoding="utf-8") as f:
         doc = json.load(f)
@@ -229,8 +289,24 @@ def parse_document(file_path, config):
 
 def parse_all_documents(source):
     """
-    Parse all documents matching the glob pattern for the specified source.
-    If pattern is None, uses the default pattern for the source.
+    Parse all documents for a specified source type using configured patterns and locations.
+
+    Loads the source configuration, finds all matching .di.json files in the configured
+    data folder, and parses each document into structured article data.
+
+    Args:
+        source (str): Source type identifier ("EBA", "fiva_mok", etc.) that must exist
+                     in SOURCE_CONFIGS
+
+    Returns:
+        List[Dict]: List of parsed document dictionaries, each containing document title,
+                   document name, and structured articles
+
+    Raises:
+        ValueError: If the source is not found in SOURCE_CONFIGS
+
+    Note:
+        Prints progress information during parsing and a summary upon completion.
     """
 
     # Check that source exists
@@ -243,13 +319,11 @@ def parse_all_documents(source):
 
     # Loop through all documents matching the pattern
     results = []
-    for path in sorted(
-        SOURCE_CONFIGS["common"]["data_folder"].glob(config["file_pattern"])
-    ):
+    for path in sorted(config["data_folder"].glob(config["file_pattern"])):
         print(f"Parsing {path}...")
         results.append(parse_document(path, config))
 
-    print(f"Successfully parsed {len(results)} EBA documents")
+    print(f"Successfully parsed {len(results)} {source} documents")
 
     return results
 
@@ -273,5 +347,8 @@ if __name__ == "__main__":
     )
     save_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(save_dir / f"all_{source}_parsed.json", "w", encoding="utf-8") as f:
+    filename = f"all_{source}_parsed.json"
+    with open(save_dir / filename, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
+
+    print(f"Saved {len(results)} documents to {filename}")
