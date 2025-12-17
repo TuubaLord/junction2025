@@ -1,15 +1,21 @@
 # Financial Regulation Article Clustering
 
-A Python-based tool for parsing, filtering, categorizing, and clustering financial regulatory articles from multiple sources (BRRD, EBA, FIVA_MOK/EN). The system uses TF-IDF pre-filtering combined with LLM-based similarity scoring to identify overlapping and contradictory requirements across different regulatory frameworks.
+## Contributors
+
+-   osma.ovaskainen@aalto.fi
+-   aleksanteri.hamalainen@aalto.fi
+-   aku.karhinen@aalto.fi
+-   niko.laukkanen@outlook.com
 
 ## 🎯 Project Overview
 
 This project automates the analysis of financial regulation documents by:
 
--   **Parsing** regulatory documents into structured JSON format
+-   **Parsing** provided JSON articles
 -   **Filtering** relevant articles from unrelated content
 -   **Categorizing** articles by risk type (credit, liquidity, market, operational, compliance)
--   **Clustering** similar articles using AI-powered similarity analysis
+-   **Clustering** similar articles with TF-IDF and LLM
+-   **Comparing** clustered articles with LLM for contradictions or overlap
 
 ## 📋 Table of Contents
 
@@ -25,7 +31,7 @@ This project automates the analysis of financial regulation documents by:
 ### Prerequisites
 
 -   Python 3.10+
--   [Ollama](https://ollama.ai/) with the `gemma3:1b` model installed
+-   [Ollama](https://ollama.ai/) with the `gemma3:1b` & `gemma3:4b` model installed
 -   Conda (recommended) or pip
 
 ### Setup with Conda
@@ -33,7 +39,7 @@ This project automates the analysis of financial regulation documents by:
 ```bash
 # Create environment from env.yml
 conda env create -f env.yml
-conda activate paragraph-classifier
+conda activate bureaucracy-buster
 
 # Install additional dependencies
 pip install scikit-learn
@@ -42,197 +48,130 @@ pip install scikit-learn
 ### Install Ollama Model
 
 ```bash
-# Pull the required model
+# Pull the required models
 ollama pull gemma3:1b
+ollama pull gemma3:4b
 ```
 
-## 🔄 Pipeline Overview
+## Pipeline Overview
 
-The processing pipeline consists of 4 main stages:
+The processing pipeline consists of 5 main stages:
 
 ```
-Parse → Filter → Split by Risk → Cluster
+Parse → Filter → Split by Risk → Cluster → Compare
 ```
 
-### Stage 1: Parse
+## Usage
 
-Convert PDF regulatory documents into structured JSON format with articles, paragraphs, and metadata.
+### Run the Complete Pipeline
 
-### Stage 2: Filter
-
-Use AI to classify articles as relevant or unrelated to financial institution risk management.
-
-### Stage 3: Split by Risk Category
-
-Categorize articles into 5 risk types:
-
--   Credit Risk
--   Liquidity Risk
--   Market Risk
--   Operational Risk
--   Compliance Risk
-
-### Stage 4: Cluster
-
-Identify similar/contradictory articles across different regulatory frameworks using TF-IDF + LLM analysis.
-
-## 📖 Usage
-
-### 1. Parse Regulatory Documents
+The easiest way to run the entire pipeline is using `run_all.py`:
 
 ```bash
-# Parse EBA documents (run inside EBA folder)
-cd EBA
-python ../parse_EBA.py
-
-# Parse FIVA_MOK documents (run inside FIVA_MOK folder)
-cd FIVA_MOK
-python ../parse_fiva_mok.py
+cd src
+python run_all.py
 ```
 
-**Output:** `eba_parsed.json`, `fiva_mok_parsed.json`
+This will execute all 5 stages sequentially for all sources (EBA, FIVA_MOK) and all risk categories.
 
-### 2. Filter Relevant Articles
+---
+
+### Individual Pipeline Steps
+
+You can also run each step individually. Edit the source/category variables in the file as needed, then run:
+
+### 1. Parse Documents (`data_parse.py`)
+
+Parses regulatory documents from the `data/gold/` folder into structured JSON.
 
 ```bash
-python select_relevant.py
+# Edit SOURCE variable in data_parse.py as needed (EBA or FIVA_MOK)
+python src/data_parse.py
 ```
 
-**Configuration:** Edit the input file path in `select_relevant.py`
+**Input:** Documents in `data/gold/{source}/`  
+**Output:** `data/intermediate/parsed/all_{source}_parsed.json`
 
+### 2. Filter Relevant Articles (`data_filter.py`)
+
+Uses an LLM to classify articles as relevant or unrelated to credit-giving organizations.
+
+```bash
+# Edit SOURCE variable in data_filter.py as needed
+python src/data_filter.py
+```
+
+**Input:** Parsed documents from Step 1  
 **Output:**
 
--   `credit_related_*.json` (relevant articles)
--   `unrelated_*.json` (filtered out articles)
+-   `data/intermediate/filtered/credit_related_{source}.json`
+-   `data/intermediate/filtered/unrelated_{source}.json`
 
-### 3. Split by Risk Category
+### 3. Categorize by Risk Type (`data_categorize.py`)
 
-```bash
-python split_by_risk_category.py
-```
-
-**Configuration:** Edit file names in the code
-
-**Output:** Creates 5 files in `categorized_cleaned_data/`:
-
--   `credit_risk_*.json`
--   `liquidity_risk_*.json`
--   `market_risk_*.json`
--   `operational_risk_*.json`
--   `compliance_risk_*.json`
-
-### 4. Cluster Similar Articles
+Uses an LLM to classify articles into 5 risk categories.
 
 ```bash
-python binitys2.py
+# Edit SOURCE variable in data_categorize.py as needed
+python src/data_categorize.py
 ```
 
-**Parameters (configurable in code):**
+**Input:** Filtered articles from Step 2  
+**Output:** `data/intermediate/categorized/{category}_{source}.json` for each category:
 
--   `tfidf_threshold`: TF-IDF similarity threshold for pre-filtering (default: 0.11)
--   `llm_threshold`: LLM similarity threshold for clustering (default: 0.86)
--   `early_exit`: Similarity score for immediate matching (default: 0.91)
+-   `credit_risk_{source}.json`
+-   `liquidity_risk_{source}.json`
+-   `market_risk_{source}.json`
+-   `operational_risk_{source}.json`
+-   `compliance_risk_{source}.json`
 
-**Output:** `clustered_articles.json`
+### 4. Cluster Similar Articles (`data_cluster.py`)
 
-## 📁 Project Structure
+Clusters articles across sources using TF-IDF pre-filtering + LLM similarity scoring.
 
-```
-junction2025/
-├── parse_EBA.py              # Parse EBA regulatory documents
-├── parse_fiva_mok.py          # Parse FIVA_MOK documents
-├── select_relevant.py         # Filter relevant articles using AI
-├── split_by_risk_category.py # Categorize by risk type
-├── binitys2.py               # Main clustering algorithm
-├── visualize.ipynb           # Data visualization notebook
-├── env.yml                   # Conda environment specification
-├── categorized_cleaned_data/ # Processed articles by risk category
-├── clustered_data/           # Clustering results
-└── Results/                  # Analysis outputs
+```bash
+# Edit category variable in data_cluster.py as needed
+python src/data_cluster.py
 ```
 
-## ⚙️ Configuration
+**Parameters (configurable in file):**
 
-### Clustering Parameters
+-   `tfidf_threshold`: TF-IDF pre-filter threshold (default: 0.2)
+-   `llm_threshold`: LLM similarity threshold for clustering (default: 0.84)
+-   `early_exit`: Stop comparing if very high similarity (default: 0.91)
 
-Edit `binitys2.py` main section:
+**Input:** Categorized articles from Step 3  
+**Output:** `data/intermediate/clustered/{category}.json`
 
-```python
-clusters = cluster_articles_with_tfidf(
-    articles,
-    tfidf_threshold=0.11,   # Lower = more candidates for LLM
-    llm_threshold=0.86,     # Higher = stricter clustering
-    early_exit=0.91,        # Stop comparing if very similar
-)
+### 5. Compare Clustered Articles (`data_compare.py`)
+
+Compares articles within clusters to identify overlaps and contradictions.
+
+```bash
+# Edit category variable in data_compare.py as needed
+python src/data_compare.py
 ```
 
-### Input Files
+**Input:** Clustered articles from Step 4  
+**Output:** `results/{category}.json` containing:
 
-The clustering script currently processes:
+-   `overlap`: Articles with same regulatory requirements
+-   `contradiction`: Articles with conflicting requirements
+-   `bloat`: Generic similarities without concrete overlap
 
--   `categorized_cleaned_data/compliance_risk_eba.json`
--   `categorized_cleaned_data/compliance_risk_fiva_mok.json`
-
-Modify the file paths in the `__main__` section to process other risk categories.
-
-## 📊 Output Format
-
-### Clustered Articles JSON
-
-```json
-[
-  {
-    "reference_label": "Document Name Article ID",
-    "articles": [
-      {
-        "article": {
-          "document name": "...",
-          "article id": "...",
-          "article name": "...",
-          "article paragraphs": ["..."]
-        },
-        "reference_article": true
-      },
-      {
-        "article": {...},
-        "reference_article": false
-      }
-    ]
-  }
-]
-```
-
--   **reference_label**: The cluster identifier (based on the first/reference article)
--   **reference_article**: `true` for cluster heads, `false` for matched articles
-
-## 🤖 How Clustering Works
+## How Clustering Works
 
 1. **TF-IDF Pre-filtering**: Computes text similarity using TF-IDF vectorization to reduce LLM calls
 2. **Same-document filtering**: Skips articles from the same document to focus on cross-regulation overlap
 3. **LLM Similarity Scoring**: Uses Gemma 3:1b via Ollama to assess semantic similarity of requirements
 4. **Cluster Assignment**: Groups articles with similarity above threshold or creates new reference clusters
-5. **Progressive Reference Building**: Matched articles become references for future comparisons
-
-## 🔧 Troubleshooting
-
-**KeyError on cluster labels**: Ensure you're using the latest version of `binitys2.py` with proper `reference_to_label` mapping.
-
-**Ollama errors**: Verify Ollama is running and the model is installed:
-
-```bash
-ollama list
-ollama pull gemma3:1b
-```
+5. **Progressive Reference Building**: Unmatched articles become references for future comparisons
 
 **Poor clustering results**: Adjust thresholds based on your needs:
 
 -   Lower `llm_threshold` for broader clusters
 -   Raise `tfidf_threshold` to reduce LLM calls
 
-## 📝 License
+## License
 
 MIT
-
-## 👥 Contributors
-
-osma.ovaskainen@aalto.fi
