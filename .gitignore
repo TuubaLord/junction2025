@@ -3,4 +3,7 @@
 __pycache__/
 
 data/gold/*
-data/intermediate/*
+data/intermediate/parsed/*
+data/intermediate/filtered/*
+data/intermediate/categorized/*
+data/intermediate/clustered/*
