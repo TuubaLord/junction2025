@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.helpers import query_llm
+from helpers import query_llm
 
 # --------------------------------------------------------------------
 # Constants and configurations for different sources
@@ -226,8 +226,8 @@ def categorize_articles(source, verbose=False):
 
 if __name__ == "__main__":
     # Example usage: Categorize credit-related articles from EBA documents
-    source = "EBA"
-    # source = "fiva_mok"
+    # source = "EBA"
+    source = "FIVA_MOK"
 
     # Process
     categorized_articles, unclassified_count = categorize_articles(source, verbose=True)

@@ -32,11 +32,12 @@ SOURCE_CONFIGS = {
         "paragraph_pattern": re.compile(r"^(?:\((\d+)\)|(\d+)\.)\s*(.*)"),
         "title_keywords": ["Guidelines", "GUIDELINES"],
     },
-    "fiva_mok": {
+    "FIVA_MOK": {
         "data_folder": Path(__file__).parent.parent.resolve()
         / "data"
         / "gold"
-        / "FIVA_MOK",
+        / "FIVA_MOK"
+        / "EN",
         "file_pattern": "*.di.json",
         "heading_pattern": re.compile(r"^(\d+(?:\.\d+)*)\s+(.+)$"),
         # Only "(1) text"
@@ -334,8 +335,8 @@ def parse_all_documents(source):
 
 if __name__ == "__main__":
     # Example usage: Parse EBA documents
-    source = "EBA"
-    # source = "fiva_mok"
+    # source = "EBA"
+    source = "FIVA_MOK"
 
     # Process
     results = parse_all_documents(source)

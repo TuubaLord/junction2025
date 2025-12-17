@@ -74,7 +74,7 @@ def compare_articles_score(article_a, article_b):
 
 
 def cluster_articles(
-    source,
+    sources,
     category,
     tfidf_threshold=0.2,
     llm_threshold=0.84,
@@ -97,19 +97,21 @@ def cluster_articles(
     """
 
     # Load articles
-    with open(
-        Path(__file__).parent.parent.resolve()
-        / "data"
-        / "intermediate"
-        / "categorized"
-        / f"{category}_{source}.json",
-        "r",
-        encoding="utf-8",
-    ) as f:
-        articles = json.load(f)
+    articles = []
+    for source in sources:
+        with open(
+            Path(__file__).parent.parent.resolve()
+            / "data"
+            / "intermediate"
+            / "categorized"
+            / f"{category}_{source}.json",
+            "r",
+            encoding="utf-8",
+        ) as f:
+            articles.extend(json.load(f))
 
     if not articles:
-        print(f"No articles found for source/category: {source}/{category}")
+        print(f"No articles found.")
         return {}
 
     # Cluster articles
@@ -245,19 +247,17 @@ def save_clusters_to_json(clusters, filename="clustered_articles.json"):
 
 if __name__ == "__main__":
     # Example usage: Cluster articles from specified source
-    source = "EBA"
-    # source = "fiva_mok"
+    sources = ["EBA", "FIVA_MOK"]
 
     category = "compliance_risk"
     # category = "credit_risk"
     # category = "liquidity_risk"
     # category = "market_risk"
     # category = "operational_risk"
-    # category = "compliance_risk"
 
     # Cluster articles
     clusters = cluster_articles(
-        source,
+        sources,
         category,
         tfidf_threshold=0.2,
         llm_threshold=0.84,
@@ -273,7 +273,7 @@ if __name__ == "__main__":
     save_dir.mkdir(parents=True, exist_ok=True)
 
     if clusters:
-        save_clusters_to_json(clusters, save_dir / f"{category}_{source}.json")
-        print(f"Successfully clustered {source} articles into {len(clusters)} groups")
+        save_clusters_to_json(clusters, save_dir / f"{category}.json")
+        print(f"Successfully clustered articles into {len(clusters)} groups")
     else:
-        print(f"No clusters created for source: {source}")
+        print(f"No clusters created for category: {category}")

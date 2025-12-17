@@ -2,13 +2,15 @@ import requests
 import json
 
 
-def query_llm(prompt, model="gemma3:4b", base_url="http://localhost:11434"):
+def query_llm(
+    prompt, model="gemma3:1b", temperature=0.1, base_url="http://localhost:11434"
+):
     """
     Calls Ollama via web API with specified model.
 
     Args:
         prompt (str): The prompt to send to the model
-        model (str): The model name to use (default: "gemma3:4b")
+        model (str): The model name to use (default: "gemma3:1b")
         base_url (str): The Ollama server URL (default: "http://localhost:11434")
 
     Returns:
@@ -21,7 +23,12 @@ def query_llm(prompt, model="gemma3:4b", base_url="http://localhost:11434"):
     """
     url = f"{base_url}/api/generate"
 
-    payload = {"model": model, "prompt": prompt, "stream": False}
+    payload = {
+        "model": model,
+        "prompt": prompt,
+        "stream": False,
+        "temperature": temperature,
+    }
 
     try:
         response = requests.post(url, json=payload, timeout=120)

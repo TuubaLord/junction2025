@@ -57,7 +57,7 @@ def is_credit_relevant(article_paragraphs):
 # --------------------------------------------------------------------
 
 
-def classify_articles(
+def filter_articles(
     source,
     verbose=False,
 ):
@@ -152,11 +152,11 @@ def classify_articles(
 
 if __name__ == "__main__":
     # Example usage: Filter out non-credit related articles from specified source
-    source = "EBA"
-    # source = "fiva_mok"
+    # source = "EBA"
+    source = "FIVA_MOK"
 
     # Process
-    relevant_articles, unrelated_articles = classify_articles(source, verbose=True)
+    relevant_articles, unrelated_articles = filter_articles(source, verbose=True)
 
     # Save to file
     print("Saving results")
